@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Clockwork Reporting</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="static/Favicon_2018.png" rel="icon">
+  <link href="static/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+  <link href="static/bootstrap.min.css" rel="stylesheet">
+  <link href="static/animate.min.css" rel="stylesheet">
+  <link href="static/style.css" rel="stylesheet">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+<header id="header">
+    <div class="container">
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="/index">Home</a></li>
+          <li class="menu-has-children"><a href=''>Reports</a>
+            <ul>
+            <li><a href="/address">Address</a></li>
+            <li><a href="/email">Email</a></li>
+            <li><a href="/phone">Phone</a></li>
+            <li><a href="/waterfall">Waterfall</a></li>
+            <li><a href="/activity">Activity</a></li>
+            </ul>
+            </li>
+          <li><a href="/team">Team</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <body>
+  <section style="margin:30px; padding:20px;"></section>
+  <div>
+    <h1>Clockwork - Project Waterfall Analysis </h1>
+  </div>
+  <section style="margin:30px"></section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form action="{{ url_for('waterfall_pg') }}" method="post">
+          <div class="form-group m-top-75">
+            <label for="firm_id">Firm ID:</label>
+            <input type="text" name="firm_id" class="form-control">
+            <label for="firm_id">Project ID:</label>
+            <input type="text" name="project_id" class="form-control">
+          </div>
+          <button id="submit" class="btn btn-primary right">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class='row'>
+        <div class='col-md-4'>
+          <br><br>
+            {{ overview_html | safe }} 
+        </div>
+      <div class="col-md-6">
+      <svg width="660" height="400"></svg>
+    </div>
+    
+<script>
+      // var output_data = '{{data}}';
+      var svg = d3.select("svg"),
+          margin = {top: 20, right: 20, bottom: 30, left: 40},
+          width = +svg.attr("width") - margin.left - margin.right,
+          height = +svg.attr("height") - margin.top - margin.bottom,
+          g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var x = d3.scaleBand()
+          .rangeRound([0, width])
+          .paddingInner(0.05)
+          .align(0.1);
+
+      var y = d3.scaleLinear()
+          .rangeRound([height, 0]);
+
+      var z = d3.scaleOrdinal()
+          .range(["#50d087", "#fb657e", "#009cf6"]);
+
+      d3.csv("/static/data.csv", function(d, i, columns) {
+        for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
+        d.total = t;
+        return d;
+      }, function(error, data) {
+        if (error) throw error;
+        console.log(data)
+        var keys = data.columns.slice(1);
+
+      x.domain(data.map(function(d) { return d.Status; }));
+      y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
+      z.domain(keys);
+
+      g.append("g")
+        .selectAll("g")
+        .data(d3.stack().keys(keys)(data))
+        .enter().append("g")
+          .attr("fill", function(d) { return z(d.key); })
+        .selectAll("rect")
+        .data(function(d) { return d; })
+        .enter().append("rect")
+          .attr("x", function(d) { return x(d.data.Status); })
+          .attr("y", function(d) { return y(d[1]); })
+          .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+          .attr("width", x.bandwidth());
+
+      g.append("g")
+          .attr("class", "axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(d3.axisBottom(x));
+
+      g.append("g")
+          .attr("class", "axis")
+          .call(d3.axisLeft(y).ticks(null, "s"))
+        .append("text")
+          .attr("x", 2)
+          .attr("y", y(y.ticks().pop()) + 0.5)
+          .attr("dy", "0.32em")
+          .attr("fill", "#000")
+          .attr("font-weight", "bold")
+          .attr("text-anchor", "start")
+          .text("Candidates");
+
+      var legend = g.append("g")
+          .attr("font-family", "sans-serif")
+          .attr("font-size", 10)
+          .attr("text-anchor", "end")
+        .selectAll("g")
+        .data(keys.slice().reverse())
+        .enter().append("g")
+          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+      legend.append("rect")
+          .attr("x", width - 19)
+          .attr("width", 19)
+          .attr("height", 19)
+          .attr("fill", z);
+
+      legend.append("text")
+          .attr("x", width - 24)
+          .attr("y", 9.5)
+          .attr("dy", "0.32em")
+          .text(function(d) { return d; });
+          });
+      </script>
+    </div>
+  </div>
+</body>
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- JavaScript Libraries -->
+<script src="static/jquery.min.js"></script>
+<script src="static/jquery-migrate.min.js"></script>
+<script src="static/bootstrap.bundle.min.js"></script>
+<script src="static/easing.min.js"></script>
+<script src="static/wow.min.js"></script>
+<script src="static/counterup.min.js"></script>
+<script src="static/hoverIntent.js"></script>
+<script src="static/superfish.min.js"></script>
+
+<!-- Template Main Javascript File -->
+<script src="static/main.js"></script>
+
+</html>

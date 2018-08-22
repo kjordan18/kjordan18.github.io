@@ -1,0 +1,303 @@
+,industry_name,seniority_name,start_day,seniority_id,days_to_close,preferred_industry_id
+0,Trading,VP,2015-10-15,3.0,559,41.0
+1,Sales/Client Management Software,C-L,2015-10-29,5.0,612,210.0
+2,Aviation & Aerospace,C-L,2015-11-30,5.0,492,82.0
+3,K-12,VP,2016-01-10,3.0,391,32.0
+4,Music,C-L,2016-02-06,5.0,403,121.0
+5,Utilities,VP,2016-04-26,3.0,293,42.0
+6,Insurance,C-L,2016-03-31,5.0,321,12.0
+7,Sales/Client Management Software,C-L,2016-04-06,5.0,317,210.0
+8,Medical Devices,VP,2016-04-13,3.0,429,74.0
+9,Network & Security,C-L,2016-04-07,5.0,362,208.0
+10,Leasing,C-L,2016-04-27,5.0,281,205.0
+11,Insurance,VP,2016-04-04,3.0,280,12.0
+12,Water,C-L,2016-05-25,5.0,278,43.0
+13,Utilities,BOD,2016-06-03,6.0,216,42.0
+14,Alternative Medicine,C-L,2016-06-03,5.0,416,69.0
+15,Food Production,VP,2016-05-23,3.0,233,92.0
+16,Food Production,VP,2016-07-08,3.0,200,92.0
+17,Dairy,C-L,2016-07-14,5.0,188,88.0
+18,Manufacturing,C-L,2016-07-20,5.0,315,79.0
+19,Banking,EVP,2016-07-08,4.0,206,4.0
+20,Education,C-L,2016-09-09,5.0,307,30.0
+21,Trading,Dir,2016-07-13,2.0,211,41.0
+22,Manufacturing,VP,2016-08-17,3.0,287,79.0
+23,Trading,VP,2016-08-17,3.0,209,41.0
+24,Political Organization,C-L,2016-07-25,5.0,189,61.0
+25,Network & Security,EVP,2016-09-19,4.0,183,208.0
+26,Food Production,EVP,2016-07-29,4.0,230,92.0
+27,Manufacturing,C-L,2016-08-01,5.0,246,79.0
+28,Tech Software & Services,VP,2016-09-01,3.0,250,192.0
+29,Wireless,VP,2016-08-18,3.0,197,216.0
+30,Software,VP,2016-09-04,3.0,414,213.0
+31,Sales/Client Management Software,VP,2016-09-27,3.0,112,210.0
+32,Aviation & Aerospace,VP,2016-08-22,3.0,156,82.0
+33,Automotive,VP,2016-08-22,3.0,253,81.0
+34,Water,VP,2016-09-14,3.0,258,43.0
+35,Software,VP,2016-09-15,3.0,162,213.0
+36,Services,VP,2016-08-22,3.0,165,211.0
+39,State & Local,C-L,2016-08-31,5.0,268,66.0
+40,Health Services & Wellness,VP,2016-09-06,3.0,175,71.0
+42,Food Production,C-L,2016-10-03,5.0,163,92.0
+43,Leasing,VP,2016-09-06,3.0,332,205.0
+44,Tech Software & Services,VP,2016-09-29,3.0,130,192.0
+45,Education,C-L,2016-09-13,5.0,172,29.0
+47,Manufacturing,C-L,2016-09-30,5.0,272,78.0
+48,Services,C-L,2016-09-15,5.0,259,211.0
+49,Financial Software,VP,2016-10-20,3.0,126,204.0
+50,Biotechnology,C-L,2016-10-23,5.0,185,70.0
+51,Political Organization,VP,2016-10-26,3.0,73,61.0
+52,Aviation & Aerospace,VP,2016-10-29,3.0,151,82.0
+53,State & Local,VP,2016-10-07,3.0,89,66.0
+54,Software,VP,2016-11-02,3.0,128,213.0
+56,Food & Beverages,VP,2016-10-04,3.0,290,129.0
+57,Food Production,C-L,2016-05-23,5.0,228,92.0
+58,Social,VP,2016-10-06,3.0,116,27.0
+59,Business Solutions,VP,2016-11-06,3.0,58,196.0
+61,Leasing,VP,2016-10-11,3.0,185,205.0
+62,Food Production,VP,2016-11-02,3.0,177,92.0
+63,Collaboration,C-L,2016-10-17,5.0,85,197.0
+64,Political Organization,C-L,2016-10-16,5.0,219,61.0
+65,Business Solutions,VP,2016-10-18,3.0,85,196.0
+66,Aviation & Aerospace,VP,2016-11-16,3.0,147,82.0
+67,E-Learning,C-L,2016-11-29,5.0,150,202.0
+68,Food Production,VP,2016-10-24,3.0,283,92.0
+69,Aviation & Aerospace,C-L,2016-10-20,5.0,273,82.0
+71,Trading,VP,2016-12-07,3.0,187,41.0
+72,Aviation & Aerospace,VP,2016-11-01,3.0,77,82.0
+73,Legal Services,EVP,2016-11-16,4.0,208,157.0
+74,"Glass, Ceramics & Concrete",C-L,2016-11-08,5.0,188,93.0
+75,Biotechnology,C-L,2016-11-01,5.0,286,70.0
+76,Dairy,C-L,2016-12-01,5.0,166,88.0
+77,Aviation & Aerospace,VP,2016-12-02,3.0,70,82.0
+78,Education,VP,2016-10-19,3.0,408,29.0
+79,Aviation & Aerospace,VP,2016-12-03,3.0,37,82.0
+80,SMB,VP,2016-11-07,3.0,71,212.0
+81,Biotechnology,VP,2017-02-09,3.0,204,70.0
+82,Health Services & Wellness,VP,2016-12-12,3.0,159,71.0
+83,Farming,VP,2016-11-21,3.0,131,90.0
+85,SMB,C-L,2016-11-08,5.0,142,212.0
+86,Biotechnology,VP,2016-11-30,3.0,135,70.0
+87,Aviation & Aerospace,C-L,2016-11-10,5.0,139,82.0
+88,State & Local,VP,2016-11-16,3.0,74,66.0
+89,Architecture & Planning,C-L,2016-12-14,5.0,92,143.0
+90,Health Services & Wellness,Dir,2016-11-14,2.0,274,71.0
+91,Political Organization,C-L,2016-12-05,5.0,196,61.0
+92,Social,VP,2016-12-15,3.0,327,218.0
+93,Aviation & Aerospace,VP,2016-11-15,3.0,111,82.0
+94,Biotechnology,VP,2016-12-16,3.0,123,70.0
+95,Business Supplies and Equipment,C-L,2016-12-08,5.0,158,84.0
+96,Farming,VP,2016-11-21,3.0,49,90.0
+97,Food Production,C-L,2016-12-21,5.0,90,92.0
+98,Aviation & Aerospace,VP,2016-12-21,3.0,107,82.0
+99,Sports,C-L,2016-12-21,5.0,173,170.0
+101,Government & Non Profit,VP,2016-12-07,3.0,180,45.0
+102,Political Organization,VP,2017-03-09,3.0,95,61.0
+103,Aviation & Aerospace,VP,2017-01-04,3.0,7,82.0
+104,Aviation & Aerospace,VP,2017-01-05,3.0,68,82.0
+105,Automotive,VP,2016-12-12,3.0,73,81.0
+106,Graphic Design,C-L,2017-01-19,5.0,22,152.0
+108,Food & Beverages,VP,2017-01-06,3.0,126,129.0
+109,Financial Software,VP,2017-01-07,3.0,3,204.0
+110,Executive Office,C-L,2016-12-08,5.0,119,150.0
+111,Distribution & Support,VP,2016-12-11,3.0,151,201.0
+112,Financial Software,VP,2017-01-11,3.0,152,204.0
+113,Financial Software,VP,2017-01-11,3.0,21,204.0
+114,Banking,C-L,2016-12-15,5.0,133,4.0
+115,Leasing,C-L,2017-01-13,5.0,82,205.0
+116,Aviation & Aerospace,VP,2016-12-14,3.0,28,82.0
+118,"Glass, Ceramics & Concrete",VP,2017-01-10,3.0,98,93.0
+119,Software,C-L,2017-01-19,5.0,250,213.0
+120,Manufacturing,VP,2017-01-05,3.0,67,79.0
+121,State & Local,VP,2016-12-22,3.0,75,66.0
+122,Mobile Apps,C-L,2017-01-20,5.0,19,207.0
+123,Manufacturing,C-L,2017-01-20,5.0,147,79.0
+124,Aviation & Aerospace,VP,2016-12-27,3.0,90,82.0
+125,Leasing,Dir,2017-02-02,2.0,277,205.0
+126,Manufacturing,C-L,2017-01-04,5.0,79,79.0
+127,Software,VP,2017-01-04,3.0,111,213.0
+128,Manufacturing,C-L,2017-03-15,5.0,8,79.0
+129,Food Production,VP,2017-02-14,3.0,6,92.0
+130,Automotive,EVP,2016-10-25,4.0,76,81.0
+131,Automotive,VP,2017-02-08,3.0,36,81.0
+132,Aviation & Aerospace,VP,2017-02-09,3.0,34,82.0
+133,Government Administration,VP,2017-01-10,3.0,106,49.0
+134,Automotive,VP,2017-02-01,3.0,204,81.0
+135,Luxury Goods & Jewelry,C-L,2017-01-23,5.0,259,132.0
+136,Automotive,VP,2017-01-17,3.0,89,81.0
+137,Biotechnology,EVP,2017-01-25,4.0,147,70.0
+138,Biotechnology,EVP,2017-01-18,4.0,113,70.0
+139,Furniture,C-L,2017-02-16,5.0,182,130.0
+140,Software,Dir,2017-02-18,2.0,20,213.0
+141,Luxury Goods & Jewelry,VP,2017-01-30,3.0,256,132.0
+143,Public Safety,C-L,2017-02-16,5.0,118,64.0
+144,Automotive,C-L,2017-01-24,5.0,27,81.0
+145,Tech Software & Services,EVP,2017-03-16,4.0,39,192.0
+146,Food Production,C-L,2017-01-26,5.0,13,92.0
+147,Aviation & Aerospace,VP,2017-02-03,3.0,213,82.0
+148,Aviation & Aerospace,VP,2017-01-30,3.0,3,82.0
+149,Services,C-L,2017-03-15,5.0,8,211.0
+150,Biotechnology,C-L,2017-03-03,5.0,52,70.0
+151,Health Services & Wellness,C-L,2017-03-03,5.0,202,71.0
+152,Food Production,VP,2017-03-04,3.0,61,92.0
+153,Biotechnology,VP,2017-02-14,3.0,84,70.0
+155,Tech Software & Services,C-L,2017-02-08,5.0,106,192.0
+156,"Glass, Ceramics & Concrete",C-L,2017-03-09,5.0,7,93.0
+157,Furniture,VP,2017-02-09,3.0,126,130.0
+158,Leasing,Dir,2017-02-09,2.0,43,205.0
+159,Aviation & Aerospace,C-L,2017-03-08,5.0,62,82.0
+160,"Glass, Ceramics & Concrete",EVP,2017-02-22,4.0,103,93.0
+161,Biotechnology,VP,2017-02-13,3.0,29,70.0
+162,Food Production,VP,2017-02-15,3.0,13,92.0
+163,Manufacturing,C-L,2017-02-20,5.0,93,79.0
+164,Aviation & Aerospace,VP,2017-02-17,3.0,156,82.0
+165,Food Production,Oth,2017-02-17,8.0,19,92.0
+167,"Glass, Ceramics & Concrete",C-L,2017-02-27,5.0,60,93.0
+168,Business Solutions,VP,2017-02-22,3.0,13,196.0
+169,Biotechnology,VP,2017-02-27,3.0,186,70.0
+170,Aviation & Aerospace,VP,2017-02-27,3.0,87,82.0
+171,Aviation & Aerospace,C-L,2017-02-27,5.0,100,82.0
+173,Health Services & Wellness,VP,2017-02-28,3.0,34,71.0
+174,Political Organization,VP,2017-02-28,3.0,64,61.0
+175,Software,EVP,2017-03-01,4.0,107,213.0
+176,Internet of Things,VP,2017-03-02,3.0,13,182.0
+177,OnDemand,VP,2017-03-06,3.0,10,217.0
+178,Aviation & Aerospace,VP,2017-03-07,3.0,50,82.0
+179,Biotechnology,C-L,2017-03-09,5.0,42,70.0
+180,Food Production,C-L,2017-03-16,5.0,97,92.0
+181,Aviation & Aerospace,C-L,2017-03-27,5.0,137,82.0
+182,Collaboration,C-L,2017-04-17,5.0,44,197.0
+183,Banking,Dir,2017-03-16,2.0,236,4.0
+184,Biotechnology,EVP,2017-03-17,4.0,221,70.0
+185,"Glass, Ceramics & Concrete",VP,2017-04-03,3.0,62,93.0
+186,"Glass, Ceramics & Concrete",VP,2017-03-22,3.0,176,93.0
+187,"Glass, Ceramics & Concrete",VP,2017-04-17,3.0,134,93.0
+188,Aviation & Aerospace,VP,2017-03-23,3.0,97,82.0
+189,Biotechnology,VP,2017-03-28,3.0,104,70.0
+190,Leasing,VP,2017-03-24,3.0,193,205.0
+191,OnDemand,VP,2017-05-17,3.0,63,217.0
+192,"Glass, Ceramics & Concrete",C-L,2017-03-24,5.0,69,93.0
+193,Food Production,VP,2017-04-07,3.0,61,92.0
+194,Investment Management,C-L,2017-03-27,5.0,114,14.0
+195,"Glass, Ceramics & Concrete",VP,2017-03-27,3.0,69,93.0
+196,Aviation & Aerospace,VP,2017-04-20,3.0,166,82.0
+197,Food Production,VP,2017-03-29,3.0,224,92.0
+198,Aviation & Aerospace,C-L,2017-03-30,5.0,33,82.0
+199,Aviation & Aerospace,VP,2017-04-18,3.0,66,82.0
+200,Network & Security,VP,2017-04-03,3.0,11,208.0
+201,Medical Practice,VP,2017-03-31,3.0,147,75.0
+202,Farming,Dir,2017-03-31,2.0,32,90.0
+203,Aviation & Aerospace,VP,2017-04-04,3.0,261,82.0
+204,Mobile Apps,C-L,2017-04-24,5.0,165,207.0
+205,Leasing,VP,2017-04-05,3.0,240,205.0
+206,Tech Software & Services,C-L,2017-04-05,5.0,153,192.0
+207,Biotechnology,VP,2017-04-06,3.0,61,70.0
+209,Leasing,VP,2017-04-13,3.0,96,205.0
+210,Commercial Real Estate,C-L,2017-04-14,5.0,152,6.0
+211,Tech Software & Services,EVP,2017-04-18,4.0,209,192.0
+212,State & Local,VP,2017-04-24,3.0,89,66.0
+214,Automotive,Oth,2017-05-23,8.0,108,81.0
+215,SMB,VP,2017-04-20,3.0,90,212.0
+216,Gambling & Casinos,Inv,2017-06-21,7.0,183,10.0
+217,Aviation & Aerospace,VP,2017-05-11,3.0,68,82.0
+218,Financial Software,C-L,2017-05-04,5.0,11,204.0
+219,Biotechnology,C-L,2017-05-22,5.0,85,70.0
+220,"Glass, Ceramics & Concrete",C-L,2017-05-05,5.0,6,93.0
+221,Photography,VP,2017-05-05,3.0,82,163.0
+222,Commercial Real Estate,VP,2017-05-05,3.0,31,6.0
+223,Financial Software,VP,2017-05-11,3.0,88,204.0
+224,Aviation & Aerospace,EVP,2017-05-11,4.0,64,82.0
+225,SMB,VP,2017-05-15,3.0,66,212.0
+226,Tech Software & Services,VP,2017-05-15,3.0,52,192.0
+227,Aviation & Aerospace,VP,2017-05-15,3.0,66,82.0
+228,Marketing Software,VP,2017-05-15,3.0,120,206.0
+229,Collaboration,C-L,2017-05-16,5.0,127,197.0
+230,Aviation & Aerospace,C-L,2017-05-23,5.0,52,82.0
+231,Application & Web Development,C-L,2017-05-23,5.0,52,194.0
+232,Political Organization,C-L,2017-06-13,5.0,134,61.0
+233,Aviation & Aerospace,VP,2017-05-23,3.0,149,82.0
+234,Aviation & Aerospace,C-L,2017-05-24,5.0,34,82.0
+235,Medical Devices,EVP,2017-06-05,4.0,98,74.0
+236,"Glass, Ceramics & Concrete",VP,2017-05-24,3.0,12,93.0
+237,Gambling & Casinos,Inv,2017-05-25,7.0,46,10.0
+238,Services,C-L,2017-05-30,5.0,28,211.0
+239,Services,C-L,2017-05-30,5.0,28,211.0
+240,Services,C-L,2017-05-30,5.0,28,211.0
+241,Application & Web Development,C-L,2017-05-31,5.0,76,194.0
+242,Manufacturing,EVP,2017-06-05,4.0,140,79.0
+244,Biotechnology,EVP,2017-06-05,4.0,15,70.0
+246,Aviation & Aerospace,VP,2017-06-12,3.0,156,82.0
+247,Biotechnology,VP,2017-06-09,3.0,145,70.0
+249,Alternative Medicine,C-L,2017-06-12,5.0,148,69.0
+250,State & Local,VP,2017-06-12,3.0,15,66.0
+251,Healthcare Tech,C-L,2017-06-13,5.0,63,219.0
+252,Manufacturing,VP,2017-06-13,3.0,98,79.0
+253,Sales/Client Management Software,VP,2017-07-07,3.0,94,220.0
+254,Leasing,C-L,2017-06-15,5.0,4,205.0
+255,Collaboration,VP,2017-06-15,3.0,42,197.0
+256,"Glass, Ceramics & Concrete",C-L,2017-06-26,5.0,80,93.0
+257,"Glass, Ceramics & Concrete",VP,2017-06-19,3.0,38,93.0
+258,Gambling & Casinos,Inv,2017-06-19,7.0,43,10.0
+259,Farming,C-L,2017-06-19,5.0,130,90.0
+260,State & Local,C-L,2017-07-01,5.0,165,66.0
+261,Utilities,C-L,2017-06-26,5.0,119,42.0
+262,"Glass, Ceramics & Concrete",VP,2017-06-27,3.0,73,93.0
+263,Leasing,EVP,2017-06-29,4.0,21,205.0
+264,Leasing,EVP,2017-07-06,4.0,111,205.0
+265,Software,VP,2017-06-30,3.0,89,213.0
+266,Software,VP,2017-07-06,3.0,74,213.0
+267,State & Local,Dir,2017-07-06,2.0,102,66.0
+268,"Glass, Ceramics & Concrete",VP,2017-07-24,3.0,108,93.0
+269,Aviation & Aerospace,VP,2017-07-26,3.0,106,82.0
+271,Alternative Medicine,C-L,2017-07-11,5.0,51,69.0
+272,Manufacturing,C-L,2017-07-28,5.0,82,79.0
+273,Alternative Medicine,C-L,2017-07-12,5.0,35,69.0
+274,Food Production,Dir,2017-07-13,2.0,43,92.0
+276,Virtualization,VP,2017-07-18,3.0,76,215.0
+277,K-12,VP,2017-07-17,3.0,71,32.0
+278,Farming,VP,2017-07-18,3.0,101,90.0
+279,Commercial Real Estate,VP,2017-07-18,3.0,59,6.0
+280,Retail,C-L,2017-07-28,5.0,11,125.0
+282,Aviation & Aerospace,VP,2017-07-25,3.0,132,82.0
+283,Banking,Dir,2017-07-20,2.0,33,4.0
+284,Alternative Medicine,C-L,2017-07-24,5.0,136,69.0
+285,Leasing,C-L,2017-07-25,5.0,94,205.0
+286,Food Production,VP,2017-08-10,3.0,99,92.0
+287,Aviation & Aerospace,C-L,2017-07-28,5.0,88,82.0
+288,Gambling & Casinos,VP,2017-07-28,3.0,47,10.0
+289,Business Solutions,C-L,2017-08-01,5.0,98,196.0
+290,Marketing and Advertising,C-L,2017-08-07,5.0,46,161.0
+291,Leasing,C-L,2017-08-21,5.0,114,205.0
+292,Financial Software,C-L,2017-08-08,5.0,34,204.0
+293,Trading,VP,2017-08-09,3.0,79,41.0
+294,Alternative Medicine,C-L,2017-08-09,5.0,90,69.0
+295,"Glass, Ceramics & Concrete",C-L,2017-08-09,5.0,86,93.0
+296,State & Local,EVP,2017-08-10,4.0,113,66.0
+298,Healthcare Tech,C-L,2017-09-11,5.0,58,219.0
+299,Business Solutions,VP,2017-08-23,3.0,45,196.0
+300,Leasing,VP,2017-08-30,3.0,72,205.0
+301,Software,VP,2017-08-24,3.0,95,213.0
+302,Publishing,VP,2017-08-28,3.0,95,123.0
+304,Software,C-L,2017-08-30,5.0,120,213.0
+305,Tech Software & Services,Inv,2017-09-05,7.0,107,192.0
+306,Leasing,VP,2017-09-06,3.0,16,205.0
+307,Leasing,C-L,2017-09-20,5.0,93,205.0
+309,Aviation & Aerospace,VP,2017-09-12,3.0,55,82.0
+310,Trading,VP,2017-09-14,3.0,61,41.0
+311,Food Production,Dir,2017-09-14,2.0,55,92.0
+312,"Glass, Ceramics & Concrete",VP,2017-09-18,3.0,80,93.0
+313,Insurance,VP,2017-09-15,3.0,5,12.0
+314,Aviation & Aerospace,VP,2017-09-18,3.0,16,82.0
+315,Electrical/Electronic Manufacturing,C-L,2017-09-27,5.0,68,89.0
+316,"Glass, Ceramics & Concrete",VP,2017-09-26,3.0,69,93.0
+317,Utilities,VP,2017-09-27,3.0,30,42.0
+318,"Glass, Ceramics & Concrete",VP,2017-10-26,3.0,47,93.0
+321,"Glass, Ceramics & Concrete",VP,2017-10-04,3.0,6,93.0
+322,Tech Software & Services,VP,2017-10-13,3.0,31,192.0
+323,Electrical/Electronic Manufacturing,C-L,2017-10-17,5.0,28,89.0
+324,Luxury Goods & Jewelry,C-L,2017-10-18,5.0,2,132.0
+325,Political Organization,VP,2017-10-18,3.0,19,61.0
+326,Trading,C-L,2017-11-02,5.0,18,41.0
+327,Social,EVP,2017-11-07,4.0,9,218.0
+328,Aviation & Aerospace,C-L,2017-11-22,5.0,8,82.0
+329,FinTech,C-L,2017-12-18,5.0,3,8.0

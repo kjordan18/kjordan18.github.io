@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="static/Favicon_2018.png" rel="icon">
+    <link href="static/apple-touch-icon.png" rel="apple-touch-icon">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Clockwork Reporting</title>
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+    <link href="static/animate.min.css" rel="stylesheet">
+    <link href="static/style.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="/static/activity.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <nav id="nav-menu-container">
+        <ul class="nav-menu">
+            <li class="menu-active"><a href="/index">Home</a></li>
+            <li class="menu-has-children"><a href=''>Reports</a>
+            <ul>
+            <li><a href="/address">Address</a></li>
+            <li><a href="/email">Email</a></li>
+            <li><a href="/phone">Phone</a></li>
+            <li><a href="/waterfall">Waterfall</a></li>
+            <li><a href="/activity">Activity</a></li>
+            </ul>
+            </li>
+            <li><a href="/team">Team</a></li>
+        </ul>
+        </nav>
+    </div>
+</header>
+ <body>
+    <section style="margin:30px"></section>
+    <div>
+        <h1>Clockwork - User Activity Waterfall</h1>
+    </div>
+    <section style="margin:30px"></section>  
+  <div class="container">
+      <div class="col-md-3">
+          <div class="well">
+                <form action="{{ url_for('activity_pg') }}" method="post">
+                    <div class="form-group m-top-75">
+                      <label for="UserID">Enter A User:</label>
+                      <input type="text" name="UserID1" class="form-control" >
+                      <label for="UserID">Enter 2nd User:</label>
+                      <input type="text" name="UserID2" class="form-control">
+                      <label for="NoOfDays">Enter Number of Days</label>
+                      <input type="text" name="InputDays" class="form-control">
+                     <button id="submit" class="btn btn-primary right">Submit</button>
+                     </div>
+                  </form>
+          </div>
+        </div>
+        <div class="col-md-9">
+            <p>Each firm is assigned a unique ID and each user of the firm has a unique ID: user_id or actor_id. Events are triggered when there is a change in the project. Users can update the events or change the event depending on the task completed. </p>
+            <p>While some users can create a project or close a project, not all users have access to such events. Depending on the rank and the type of the job, each user has certain administrative privileges on the kind of data and events they can access.</p>
+             <p>Clockwork defined about 23 events in the project life cycle. In order to see user activity and the use of Clockwork Within, a firm can look into user activity on these 23 events. Most significant events such as Candidate creation, Project Creation, etc. are very specific and access to these events is restricted to very few users. We identified 9 of these events to determine the user activity.</p>
+        </div>
+  </div>
+
+  <div class="container">
+      <div class="col-md-6">
+          <div id="plotter1"></div>
+      </div>
+      <div class="col-md-6">
+          <div id="plotter2"></div>
+      </div>
+      <!-- <div class="col-md-6">
+          <div id="piePlotter1"></div>
+      </div> -->
+      <div class="col-md-12">
+          <div id="piePlotter2"></div>
+      </div>
+  </div>
+
+  
+
+     
+
+
+</body>
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- JavaScript Libraries -->
+<script src="static/jquery.min.js"></script>
+<script src="static/jquery-migrate.min.js"></script>
+<script src="static/bootstrap.bundle.min.js"></script>
+<script src="static/easing.min.js"></script>
+<script src="static/wow.min.js"></script>
+<script src="static/counterup.min.js"></script>
+<script src="static/hoverIntent.js"></script>
+<script src="static/superfish.min.js"></script>
+
+
+</html>

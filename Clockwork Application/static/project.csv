@@ -1,0 +1,331 @@
+,firm_id,hostname,project_id,project_title,preferred_industry_id,client_company_id,industry_name,parent_id,seniority_id,seniority_name,project_client,is_internal,is_confidential,status,id,closing_reason,days_to_close,start_day,closed_day,project_source,client_count,client_viewed,client_notes
+0,100,spmb,10436,VP Customer Acquisition,41.0,2972277,Trading,35.0,3.0,VP,Dot & Bo,0,0,closed,2.0,,559,2015-10-15,2017-04-26,internal,2,0,0
+1,100,spmb,11267,Confidential Search,210.0,2969216,Sales/Client Management Software,191.0,5.0,C-Level,TeleTech,0,1,closed,3.0,,612,2015-10-29,2017-07-02,internal,2,2,0
+2,100,spmb,11980,CMO,82.0,2944488,Aviation & Aerospace,78.0,5.0,C-Level,Mulesoft,0,0,closed,2.0,,492,2015-11-30,2017-04-05,internal,4,4,0
+3,100,spmb,12100,[Restart] VP Engineering,32.0,4206038,K-12,29.0,3.0,VP,EtaGen,0,0,closed,1.0,,391,2016-01-10,2017-02-04,internal,1,1,0
+4,100,spmb,12325,CEO,121.0,2953173,Music,112.0,5.0,C-Level,Cardinal Health,0,0,closed,2.0,,403,2016-02-06,2017-03-15,internal,0,0,0
+5,100,spmb,13515,VP Software Engineering,42.0,3070395,Utilities,35.0,3.0,VP,Juicero,0,0,closed,3.0,,293,2016-04-26,2017-02-13,internal,3,3,0
+6,100,spmb,13828,President,12.0,2941493,Insurance,1.0,5.0,C-Level,Soraa,0,0,closed,1.0,,321,2016-03-31,2017-02-15,internal,7,5,0
+7,100,spmb,13834,Confidential,210.0,2969216,Sales/Client Management Software,191.0,5.0,C-Level,TeleTech,0,0,closed,1.0,,317,2016-04-06,2017-02-17,internal,1,1,0
+8,100,spmb,13835,VP Customer Experience,74.0,3332223,Medical Devices,67.0,3.0,VP,Lohika,0,0,closed,1.0,,429,2016-04-13,2017-06-16,internal,1,1,0
+9,100,spmb,13916,Introduction,208.0,2948124,Network & Security,191.0,5.0,C-Level,Rocket Fuel,0,0,closed,2.0,,362,2016-04-07,2017-04-04,internal,0,0,0
+10,100,spmb,14119,Chief People Officer,205.0,2947521,Leasing,191.0,5.0,C-Level,Rent The Runway,0,0,closed,1.0,,281,2016-04-27,2017-02-02,internal,5,3,0
+11,100,spmb,14173,Vice President Sales,12.0,4395226,Insurance,1.0,3.0,VP,Spruce Finance,0,0,closed,1.0,,280,2016-04-04,2017-01-09,internal,2,1,0
+12,100,spmb,14445,CFO,43.0,4684223,Water,35.0,5.0,C-Level,UnitedMasters,0,0,closed,1.0,,278,2016-05-25,2017-02-27,internal,3,2,0
+13,100,spmb,14653,Board of Directors,42.0,3054902,Utilities,35.0,6.0,Board,Smart & Final,0,0,closed,1.0,,216,2016-06-03,2017-01-05,internal,4,4,0
+14,100,spmb,14658,Chief Product Officer,69.0,3027155,Alternative Medicine,67.0,5.0,C-Level,Planet,0,0,closed,3.0,,416,2016-06-03,2017-07-24,internal,4,4,0
+15,100,spmb,14720,CMO,92.0,3015406,Food Production,78.0,3.0,VP,SupplyFrame,0,0,closed,1.0,,233,2016-05-23,2017-01-11,internal,1,1,0
+16,100,spmb,15194,VP Marketing,92.0,4588844,Food Production,78.0,3.0,VP,Lumosity,0,0,closed,1.0,,200,2016-07-08,2017-01-24,internal,3,3,0
+17,100,spmb,15516,CDO,88.0,4679470,Dairy,78.0,5.0,C-Level,GAP,0,0,closed,5.0,,188,2016-07-14,2017-01-18,internal,1,1,0
+18,100,spmb,15607,HR,79.0,2941376,Manufacturing,78.0,5.0,C-Level,ServiceNow,0,0,closed,2.0,,315,2016-07-20,2017-05-31,internal,1,1,0
+19,100,spmb,15661,MVP Digital Transformation,4.0,2946558,Banking,1.0,4.0,EVP/SVP,Capital One,0,0,closed,3.0,,206,2016-07-08,2017-01-30,internal,3,1,0
+20,100,spmb,15738,CFO,30.0,4159216,Education,29.0,5.0,C-Level,Zoom+,0,0,closed,3.0,,307,2016-09-09,2017-07-13,internal,2,2,0
+21,100,spmb,15960,Director Information Systems,41.0,3070395,Trading,35.0,2.0,Director,Juicero,0,0,closed,1.0,,211,2016-07-13,2017-02-09,internal,3,2,0
+22,100,spmb,16019,VP Human Resources,79.0,2941376,Manufacturing,78.0,3.0,VP,ServiceNow,0,0,closed,2.0,,287,2016-08-17,2017-05-31,internal,1,0,0
+23,100,spmb,16024,CTO,41.0,3752533,Trading,35.0,3.0,VP,Outdoor Voices,1,0,closed,1.0,,209,2016-08-17,2017-03-14,internal,5,5,0
+24,100,spmb,16421,COO,61.0,2941256,Political Organization,44.0,5.0,C-Level,Fitbit,0,0,closed,1.0,,189,2016-07-25,2017-01-30,internal,3,3,0
+25,100,spmb,16521,Confidential EVP Search,208.0,3037340,Network & Security,191.0,4.0,EVP/SVP,Rubicon Project,0,1,closed,2.0,,183,2016-09-19,2017-03-21,internal,3,2,0
+26,100,spmb,16529,"SVP, International Direct to Consumer",92.0,2953465,Food Production,78.0,4.0,EVP/SVP,TransUnion,0,0,closed,5.0,,230,2016-07-29,2017-03-16,internal,4,3,0
+27,100,spmb,16544,CEO,79.0,4651382,Manufacturing,78.0,5.0,C-Level,Foxtrot Systems,0,0,closed,1.0,,246,2016-08-01,2017-04-04,internal,4,3,0
+28,100,spmb,16570,VP of Sales- Federal,192.0,4537502,Tech Software & Services,191.0,3.0,VP,C3 IoT,0,0,closed,3.0,,250,2016-09-01,2017-05-09,internal,2,1,0
+29,100,spmb,16587,Head of Hardware,216.0,3102160,Wireless,191.0,3.0,VP,Oculus VR,0,0,closed,1.0,,197,2016-08-18,2017-03-03,internal,2,1,0
+30,100,spmb,16615,VP FP&A,213.0,4830617,Software,191.0,3.0,VP,Credit Karma,0,0,closed,3.0,,414,2016-09-04,2017-10-23,internal,1,1,0
+31,100,spmb,16640,"VP, Sales",210.0,2973028,Sales/Client Management Software,191.0,3.0,VP,Bluescape,0,0,closed,1.0,,112,2016-09-27,2017-01-17,internal,4,1,0
+32,100,spmb,16686,VP Product,82.0,2950652,Aviation & Aerospace,78.0,3.0,VP,Nginx,0,0,closed,1.0,,156,2016-08-22,2017-01-25,internal,4,4,0
+33,100,spmb,16714,CTO,81.0,3234399,Automotive,78.0,3.0,VP,sovrn Holdings,0,0,closed,1.0,,253,2016-08-22,2017-05-02,internal,2,2,0
+34,100,spmb,16718,VP/SVP Product,43.0,3126958,Water,35.0,3.0,VP,Gogo,0,0,closed,1.0,,258,2016-09-14,2017-05-30,internal,3,2,0
+35,100,spmb,16727,VP of FP&G,213.0,4830617,Software,191.0,3.0,VP,Credit Karma,0,0,closed,3.0,,162,2016-09-15,2017-02-24,internal,0,0,0
+36,100,spmb,16807,Head of Customer Experience,211.0,4091080,Services,191.0,3.0,VP,Gusto,0,0,closed,1.0,,165,2016-08-22,2017-02-03,internal,4,4,0
+37,100,spmb,16824,Consumer GP,10.0,2950649,Gambling & Casinos,1.0,,,Andreessen Horowitz,1,0,closed,3.0,,219,2016-08-23,2017-03-30,internal,1,1,0
+38,100,spmb,16838,Enterprise GP,10.0,2950649,Gambling & Casinos,1.0,,,Andreessen Horowitz,1,0,closed,3.0,,218,2016-08-24,2017-03-30,internal,1,1,0
+39,100,spmb,16946,CEO,66.0,4443499,State & Local,44.0,5.0,C-Level,ZeroStack,0,0,closed,1.0,,268,2016-08-31,2017-05-26,internal,4,4,0
+40,100,spmb,16989,Head of Marketing,71.0,3227773,Health Services & Wellness,67.0,3.0,VP,Directly,0,0,closed,1.0,,175,2016-09-06,2017-02-28,internal,1,1,0
+41,100,spmb,16992,VP Sales,,4896314,,,3.0,VP,Signal Sciences,0,0,closed,1.0,,124,2016-10-02,2017-02-03,internal,2,2,0
+42,100,spmb,16997,Confidential,92.0,2952033,Food Production,78.0,5.0,C-Level,Confidential,0,1,closed,2.0,,163,2016-10-03,2017-03-15,internal,1,1,0
+43,100,spmb,17017,"VP, Global IT Delivery",205.0,2944460,Leasing,191.0,3.0,VP,Amazon,0,0,closed,3.0,,332,2016-09-06,2017-08-04,internal,3,2,0
+44,100,spmb,17019,VP Human Capital,192.0,4537502,Tech Software & Services,191.0,3.0,VP,C3 IoT,0,0,closed,3.0,,130,2016-09-29,2017-02-06,internal,3,1,0
+45,100,spmb,17071,CIO 2016,29.0,3760718,Education,,5.0,C-Level,Patterson Medical Holdings,0,0,closed,5.0,,172,2016-09-13,2017-03-04,internal,4,4,0
+46,100,spmb,17092,"RVP, Sales",192.0,4537502,Tech Software & Services,191.0,,,C3 IoT,1,0,closed,2.0,,119,2016-10-13,2017-02-09,internal,0,0,0
+47,100,spmb,17122,CFO,78.0,4917996,Manufacturing,,5.0,C-Level,PresenceLearning,0,0,closed,3.0,,272,2016-09-30,2017-06-29,internal,3,3,0
+48,100,spmb,17131,Chief People Officer,211.0,4830617,Services,191.0,5.0,C-Level,Credit Karma,0,0,closed,1.0,,259,2016-09-15,2017-06-01,internal,3,3,0
+49,100,spmb,17228,VP Sales,204.0,2945147,Financial Software,191.0,3.0,VP,Yelp,0,0,closed,1.0,,126,2016-10-20,2017-02-23,internal,2,2,0
+50,100,spmb,17243,CMO,70.0,4940057,Biotechnology,67.0,5.0,C-Level,Optimal Plus,1,0,closed,1.0,,185,2016-10-23,2017-04-26,internal,2,2,0
+51,100,spmb,17269,VP Engineering,61.0,3436690,Political Organization,44.0,3.0,VP,Fetch Robotics,0,0,closed,1.0,,73,2016-10-26,2017-01-07,internal,4,4,0
+52,100,spmb,17376,VP Growth,82.0,4921420,Aviation & Aerospace,78.0,3.0,VP,Incode Technologies,0,0,closed,3.0,,151,2016-10-29,2017-03-29,internal,0,0,0
+53,100,spmb,17415,VP Marketing,66.0,2941447,State & Local,44.0,3.0,VP,Qumulo,1,0,closed,1.0,,89,2016-10-07,2017-01-04,internal,4,4,0
+54,100,spmb,17418,VP Data Engineering 2,213.0,4830617,Software,191.0,3.0,VP,Credit Karma,1,0,closed,4.0,,128,2016-11-02,2017-03-10,internal,0,0,0
+55,100,spmb,17438,Sales People Organization,,4967906,,,,,Scott Kennedy,1,0,closed,2.0,,161,2016-11-03,2017-04-13,internal,0,0,0
+56,100,spmb,17444,Vice President of Engineering,129.0,4594642,Food & Beverages,124.0,3.0,VP,Ketra,0,0,closed,5.0,,290,2016-10-04,2017-07-21,internal,3,3,0
+57,100,spmb,17454,CMO - Restart,92.0,3015406,Food Production,78.0,5.0,C-Level,SupplyFrame,0,0,closed,1.0,,228,2016-05-23,2017-01-06,internal,1,1,0
+58,100,spmb,17482,VP Product,27.0,2967280,Social,20.0,3.0,VP,DNAnexus,0,0,closed,5.0,,116,2016-10-06,2017-01-30,internal,2,2,0
+59,100,spmb,17513,Chief Customer Officer,196.0,4979004,Business Solutions,191.0,3.0,VP,Glint,0,0,closed,1.0,,58,2016-11-06,2017-01-03,internal,2,2,0
+60,100,spmb,17652,CFO,,3775352,,,5.0,C-Level,BrightFarms,0,0,closed,1.0,,64,2016-11-09,2017-01-12,internal,1,1,0
+61,100,spmb,17667,"VP, Mobile",205.0,2944460,Leasing,191.0,3.0,VP,Amazon,0,0,closed,1.0,,185,2016-10-11,2017-04-14,internal,2,0,0
+62,100,spmb,17677,VP Sales,92.0,3445914,Food Production,78.0,3.0,VP,Curbside,0,0,closed,1.0,,177,2016-11-02,2017-04-28,internal,3,2,0
+63,100,spmb,17727,Chief Product Officer,197.0,2952618,Collaboration,191.0,5.0,C-Level,Smule,0,0,closed,1.0,,85,2016-10-17,2017-01-10,internal,5,5,0
+64,100,spmb,17746,CEO,61.0,3870737,Political Organization,44.0,5.0,C-Level,Mio Global,0,0,closed,1.0,,219,2016-10-16,2017-05-23,internal,0,0,0
+65,100,spmb,17759,Confidential Search,196.0,5004181,Business Solutions,191.0,3.0,VP,LifeSize,0,1,closed,5.0,,85,2016-10-18,2017-01-11,internal,5,5,0
+66,100,spmb,17760,Head of Finance,82.0,4354271,Aviation & Aerospace,78.0,3.0,VP,HoneyBook,0,0,closed,1.0,,147,2016-11-16,2017-04-12,internal,2,2,0
+67,100,spmb,17780,CTO,202.0,4769466,E-Learning,191.0,5.0,C-Level,MLB Advanced Media,0,0,closed,1.0,,150,2016-11-29,2017-04-28,internal,1,1,0
+68,100,spmb,17795,VP Product,92.0,3217158,Food Production,78.0,3.0,VP,Databricks,0,0,closed,1.0,,283,2016-10-24,2017-08-03,internal,6,6,0
+69,100,spmb,17815,COO,82.0,3349143,Aviation & Aerospace,78.0,5.0,C-Level,AutoGrid,0,0,closed,1.0,,273,2016-10-20,2017-07-20,internal,6,4,0
+70,100,spmb,17867,CEO,,2941462,,,5.0,C-Level,Datameer,0,0,closed,2.0,,49,2016-11-24,2017-01-12,internal,0,0,0
+71,100,spmb,17888,VP Creative,41.0,3038384,Trading,35.0,3.0,VP,Walker & Company,0,0,closed,2.0,,187,2016-12-07,2017-06-12,internal,2,1,0
+72,100,spmb,17957,Head of Developer Advocacy,82.0,3107751,Aviation & Aerospace,78.0,3.0,VP,Redis Labs,0,0,closed,1.0,,77,2016-11-01,2017-01-17,internal,2,2,0
+73,100,spmb,17960,SVP Operations,157.0,4990413,Legal Services,139.0,4.0,EVP/SVP,Glossier,0,0,closed,3.0,,208,2016-11-16,2017-06-12,internal,2,1,0
+74,100,spmb,17961,CEO,93.0,4719294,"Glass, Ceramics & Concrete",78.0,5.0,C-Level,Tigera,0,0,closed,1.0,,188,2016-11-08,2017-05-15,internal,4,3,0
+75,100,spmb,17965,CEO,70.0,2961221,Biotechnology,67.0,5.0,C-Level,Interana,0,0,closed,1.0,,286,2016-11-01,2017-08-14,internal,11,6,0
+76,100,spmb,17971,CTO,88.0,5939084,Dairy,78.0,5.0,C-Level,Lululemon Athletica,0,0,closed,1.0,,166,2016-12-01,2017-05-16,internal,3,0,0
+77,100,spmb,17981,VP Product,82.0,4539349,Aviation & Aerospace,78.0,3.0,VP,Clara,1,0,closed,2.0,,70,2016-12-02,2017-02-10,internal,2,0,0
+78,100,spmb,17987,"VP, Consumer Marketing, North America",29.0,5966804,Education,,3.0,VP,Align Technology,1,0,closed,3.0,,408,2016-10-19,2017-12-01,internal,5,3,0
+79,100,spmb,17999,VP Sales,82.0,4354271,Aviation & Aerospace,78.0,3.0,VP,HoneyBook,0,0,closed,2.0,,37,2016-12-03,2017-01-09,internal,0,0,0
+80,100,spmb,18013,VP Marketing,212.0,4841796,SMB,191.0,3.0,VP,HashiCorp,0,0,closed,1.0,,71,2016-11-07,2017-01-17,internal,5,4,0
+81,100,spmb,18016,VP Product,70.0,3308880,Biotechnology,67.0,3.0,VP,Mixpanel,0,0,closed,3.0,,204,2017-02-09,2017-09-01,internal,7,4,0
+82,100,spmb,18017,VP Fulfillment,71.0,4212690,Health Services & Wellness,67.0,3.0,VP,Gigster,0,1,closed,1.0,,159,2016-12-12,2017-05-20,internal,4,3,0
+83,100,spmb,18055,Head of Customer Care,90.0,4874368,Farming,78.0,3.0,VP,Essential,1,1,closed,4.0,,131,2016-11-21,2017-04-01,internal,0,0,0
+84,100,spmb,18058,CFO,,3596852,,,5.0,C-Level,Augmedix,0,1,closed,1.0,,245,2016-12-07,2017-08-09,internal,5,5,0
+85,100,spmb,18082,Enterprise CEO's,212.0,2950649,SMB,191.0,5.0,C-Level,Andreessen Horowitz,1,0,closed,3.0,,142,2016-11-08,2017-03-30,internal,1,1,0
+86,100,spmb,18090,"VP, Business Development",70.0,5071335,Biotechnology,67.0,3.0,VP,Pilot AI,0,0,closed,1.0,,135,2016-11-30,2017-04-14,internal,3,2,0
+87,100,spmb,18121,CMO,82.0,2960090,Aviation & Aerospace,78.0,5.0,C-Level,Instart Logic,0,0,closed,1.0,,139,2016-11-10,2017-03-29,internal,4,4,0
+88,100,spmb,18127,VP WW Sales,66.0,3178444,State & Local,44.0,3.0,VP,Cohesity,0,0,closed,1.0,,74,2016-11-16,2017-01-29,internal,3,3,0
+89,100,spmb,18144,CEO,143.0,5094271,Architecture & Planning,139.0,5.0,C-Level,VAS,0,0,closed,1.0,,92,2016-12-14,2017-03-16,internal,3,1,0
+90,100,spmb,18145,Director Web Console,71.0,2944460,Health Services & Wellness,67.0,2.0,Director,Amazon,0,0,closed,1.0,,274,2016-11-14,2017-08-15,internal,3,2,0
+91,100,spmb,18148,CFO,61.0,2971401,Political Organization,44.0,5.0,C-Level,Anki,0,0,closed,1.0,,196,2016-12-05,2017-06-19,internal,6,6,0
+92,100,spmb,18167,VP Product,218.0,5099508,Social,203.0,3.0,VP,Lantern,0,0,closed,2.0,,327,2016-12-15,2017-11-07,internal,1,0,0
+93,100,spmb,18172,VP Marketing,82.0,5100423,Aviation & Aerospace,78.0,3.0,VP,Tray.io,0,0,closed,1.0,,111,2016-11-15,2017-03-06,internal,4,4,0
+94,100,spmb,18210,"VP, Business Operations, Analytics and Strategy",70.0,3308880,Biotechnology,67.0,3.0,VP,Mixpanel,0,0,closed,3.0,,123,2016-12-16,2017-04-18,internal,3,1,0
+95,100,spmb,18231,CFO,84.0,5109792,Business Supplies and Equipment,78.0,5.0,C-Level,Generate Capital,0,0,closed,1.0,,158,2016-12-08,2017-05-15,internal,0,0,0
+96,100,spmb,18244,Head of Operations,90.0,4874368,Farming,78.0,3.0,VP,Essential,0,0,closed,3.0,,49,2016-11-21,2017-01-09,internal,3,1,0
+97,100,spmb,18718,CFO,92.0,5120570,Food Production,78.0,5.0,C-Level,Elastic Search,0,1,closed,2.0,,90,2016-12-21,2017-03-21,internal,1,0,0
+98,100,spmb,18720,VP Product,82.0,3752880,Aviation & Aerospace,78.0,3.0,VP,Narvar,0,0,closed,2.0,,107,2016-12-21,2017-04-07,internal,0,0,0
+99,100,spmb,18731,Chief Revenue Officer,170.0,3268344,Sports,139.0,5.0,C-Level,Teespring,0,0,closed,2.0,,173,2016-12-21,2017-06-12,internal,0,0,0
+100,100,spmb,18743,"Senior Director, Educational Architect",201.0,3349337,Distribution & Support,191.0,2.0,Director,Dermalogica,0,0,closed,2.0,,-20,2017-01-23,2017-01-03,internal,3,2,0
+101,100,spmb,18770,VP Product,45.0,2953574,Government & Non Profit,44.0,3.0,VP,Agari,0,0,closed,1.0,,180,2016-12-07,2017-06-05,internal,5,5,0
+102,100,spmb,19040,VP Engineering,61.0,5047225,Political Organization,44.0,3.0,VP,SimpliSafe,0,0,closed,2.0,,95,2017-03-09,2017-06-12,internal,0,0,0
+103,100,spmb,19147,VP Product,82.0,3603963,Aviation & Aerospace,78.0,3.0,VP,Slack,1,1,closed,2.0,,7,2017-01-04,2017-01-11,internal,1,1,0
+104,100,spmb,19164,VP Sales,82.0,4893364,Aviation & Aerospace,78.0,3.0,VP,BetterUp,0,0,closed,1.0,,68,2017-01-05,2017-03-14,internal,2,2,0
+105,100,spmb,19183,SVP Customer Success,81.0,2944856,Automotive,78.0,3.0,VP,BrightEdge,0,0,closed,1.0,,73,2016-12-12,2017-02-23,internal,4,4,0
+106,100,spmb,19187,CEO,152.0,4512399,Graphic Design,139.0,5.0,C-Level,Dwell Media,0,0,closed,2.0,,22,2017-01-19,2017-02-10,internal,0,0,0
+107,100,spmb,19188,CEO,,2950605,,,5.0,C-Level,IMVU,0,0,closed,1.0,,189,2017-01-06,2017-07-14,internal,5,5,0
+108,100,spmb,19190,VP of Marketing,129.0,4594642,Food & Beverages,124.0,3.0,VP,Ketra,0,0,closed,1.0,,126,2017-01-06,2017-05-12,internal,1,1,0
+109,100,spmb,19195,VP Finance,204.0,4843805,Financial Software,191.0,3.0,VP,HomeSuite,0,0,closed,2.0,,3,2017-01-07,2017-01-10,internal,0,0,0
+110,100,spmb,19208,CEO,150.0,5176825,Executive Office,139.0,5.0,C-Level,Ooyala,0,0,closed,1.0,,119,2016-12-08,2017-04-06,internal,4,2,0
+111,100,spmb,19227,VP Sales,201.0,5053989,Distribution & Support,191.0,3.0,VP,Guild Education,0,0,closed,3.0,,151,2016-12-11,2017-05-11,internal,4,2,0
+112,100,spmb,19254,VP Engineering,204.0,5182145,Financial Software,191.0,3.0,VP,Tripping,0,0,closed,2.0,,152,2017-01-11,2017-06-12,internal,4,1,0
+113,100,spmb,19255,VP Product,204.0,5182145,Financial Software,191.0,3.0,VP,Tripping,0,0,closed,2.0,,21,2017-01-11,2017-02-01,internal,4,2,0
+114,100,spmb,19280,"Chief / VP, Content, Strategy & Engagement Officer",4.0,2944913,Banking,1.0,5.0,C-Level,Credit.com,0,0,closed,3.0,,133,2016-12-15,2017-04-27,internal,1,1,0
+115,100,spmb,19282,CFO,205.0,5187862,Leasing,191.0,5.0,C-Level,Hollar CFO- BD,0,1,closed,2.0,,82,2017-01-13,2017-04-05,internal,3,1,0
+116,100,spmb,19290,VP Customer Success,82.0,5189519,Aviation & Aerospace,78.0,3.0,VP,Beamery,0,0,closed,2.0,,28,2016-12-14,2017-01-11,internal,2,1,0
+117,100,spmb,19325,VP Sales,,2946059,,,3.0,VP,Prezi,0,0,closed,1.0,,70,2016-12-20,2017-02-28,internal,2,2,0
+118,100,spmb,19472,VP Product Marketing,93.0,5164154,"Glass, Ceramics & Concrete",78.0,3.0,VP,ValiMail,0,0,closed,5.0,,98,2017-01-10,2017-04-18,internal,4,3,0
+119,100,spmb,19489,CFO,213.0,2950493,Software,191.0,5.0,C-Level,LendUp,0,0,closed,1.0,,250,2017-01-19,2017-09-26,internal,2,2,0
+120,100,spmb,19490,VP Demand Marketing,79.0,2941197,Manufacturing,78.0,3.0,VP,DocuSign,0,1,closed,3.0,,67,2017-01-05,2017-03-13,internal,2,2,0
+121,100,spmb,19495,VP Sales,66.0,5200019,State & Local,44.0,3.0,VP,E8 Storage,0,0,closed,1.0,,75,2016-12-22,2017-03-07,internal,1,1,0
+122,100,spmb,19501,CMO,207.0,5201511,Mobile Apps,191.0,5.0,C-Level,Opendoor,0,0,closed,2.0,,19,2017-01-20,2017-02-08,internal,0,0,0
+123,100,spmb,19503,CFO,79.0,2941193,Manufacturing,78.0,5.0,C-Level,RiseSmart,0,0,closed,1.0,,147,2017-01-20,2017-06-16,internal,2,2,0
+124,100,spmb,19523,VP Marketing,82.0,3596851,Aviation & Aerospace,78.0,3.0,VP,DroneDeploy,0,0,closed,1.0,,90,2016-12-27,2017-03-27,internal,3,3,0
+125,100,spmb,19555,Product,205.0,2947521,Leasing,191.0,2.0,Director,Rent The Runway,0,0,closed,1.0,,277,2017-02-02,2017-11-06,internal,3,1,0
+126,100,spmb,19571,VP Marketing,79.0,5254072,Manufacturing,78.0,5.0,C-Level,Signal FX,0,0,closed,3.0,,79,2017-01-04,2017-03-24,internal,2,2,0
+127,100,spmb,19580,VP Analytics,213.0,4830617,Software,191.0,3.0,VP,Credit Karma,0,0,closed,1.0,,111,2017-01-04,2017-04-25,internal,1,1,0
+128,100,spmb,19620,CMO,79.0,3105416,Manufacturing,78.0,5.0,C-Level,Leanplum,0,0,closed,2.0,,8,2017-03-15,2017-03-23,internal,0,0,0
+129,100,spmb,19678,VP Marketing,92.0,2952668,Food Production,78.0,3.0,VP,Cloud Elements,0,0,closed,3.0,,6,2017-02-14,2017-02-20,internal,0,0,0
+130,100,spmb,19679,"GM, Publisher Platform",81.0,3234399,Automotive,78.0,4.0,EVP/SVP,sovrn Holdings,0,0,closed,1.0,,76,2016-10-25,2017-01-09,internal,0,0,0
+131,100,spmb,19692,Product,81.0,2969015,Automotive,78.0,3.0,VP,BrightFunnel,0,0,closed,2.0,,36,2017-02-08,2017-03-16,internal,0,0,0
+132,100,spmb,19702,VP Sales,82.0,3106817,Aviation & Aerospace,78.0,3.0,VP,Apptimize,0,0,closed,2.0,,34,2017-02-09,2017-03-15,internal,0,0,0
+133,100,spmb,19713,CTO,49.0,2972611,Government Administration,44.0,3.0,VP,PAR Technology,0,0,closed,1.0,,106,2017-01-10,2017-04-26,internal,4,4,0
+134,100,spmb,19743,VP Professional Services - RESTART,81.0,2977840,Automotive,78.0,3.0,VP,UserTesting,0,0,closed,1.0,,204,2017-02-01,2017-08-24,internal,3,3,0
+135,100,spmb,19772,CFO,132.0,5282201,Luxury Goods & Jewelry,124.0,5.0,C-Level,Stone Brewing,1,0,closed,1.0,,259,2017-01-23,2017-10-09,internal,4,4,0
+136,100,spmb,19799,VP Professional Services,81.0,3120166,Automotive,78.0,3.0,VP,Symphony Commerce,0,0,closed,1.0,,89,2017-01-17,2017-04-16,internal,3,3,0
+137,100,spmb,19800,VP Mapping and Modeling,70.0,2958725,Biotechnology,67.0,4.0,EVP/SVP,Enlighted,0,0,closed,1.0,,147,2017-01-25,2017-06-21,internal,3,3,0
+138,100,spmb,19806,EVP Sales NA,70.0,2958725,Biotechnology,67.0,4.0,EVP/SVP,Enlighted,0,0,closed,1.0,,113,2017-01-18,2017-05-11,internal,1,1,0
+139,100,spmb,19808,CFO,130.0,5332476,Furniture,124.0,5.0,C-Level,Plenty,0,0,closed,1.0,,182,2017-02-16,2017-08-17,internal,2,2,0
+140,100,spmb,19842,Senior Director Data Engineering,213.0,4830617,Software,191.0,2.0,Director,Credit Karma,0,0,closed,4.0,,20,2017-02-18,2017-03-10,internal,0,0,0
+141,100,spmb,19844,"VP, Construction & Real Estate",132.0,3775352,Luxury Goods & Jewelry,124.0,3.0,VP,BrightFarms,0,0,closed,1.0,,256,2017-01-30,2017-10-13,internal,1,1,0
+142,100,spmb,19878,VP Data Center Operations,216.0,3228381,Wireless,191.0,3.0,VP,Roblox,0,0,closed,2.0,,-90,2017-05-19,2017-02-18,internal,3,2,0
+143,100,spmb,19902,CEO,64.0,5306375,Public Safety,44.0,5.0,C-Level,SiFive,0,0,closed,1.0,,118,2017-02-16,2017-06-14,internal,3,3,0
+144,100,spmb,19912,CMO,81.0,2964165,Automotive,78.0,5.0,C-Level,Percolate,0,0,closed,3.0,,27,2017-01-24,2017-02-20,internal,0,0,0
+145,100,spmb,19943,SVP Sales & BD,192.0,5306400,Tech Software & Services,191.0,4.0,EVP/SVP,LISNR,0,0,closed,2.0,,39,2017-03-16,2017-04-24,internal,0,0,0
+146,100,spmb,19944,CEO,92.0,2952033,Food Production,78.0,5.0,C-Level,Confidential,1,1,closed,2.0,,13,2017-01-26,2017-02-08,internal,0,0,0
+147,100,spmb,19947,VP Marketing,82.0,5011426,Aviation & Aerospace,78.0,3.0,VP,Chorus.ai,0,0,closed,1.0,,213,2017-02-03,2017-09-04,internal,4,4,0
+148,100,spmb,19995,VP Customer Success,82.0,5189519,Aviation & Aerospace,78.0,3.0,VP,Beamery,0,0,closed,2.0,,3,2017-01-30,2017-02-02,internal,1,1,0
+149,100,spmb,20013,CRO,211.0,2964254,Services,191.0,5.0,C-Level,Integral Development,0,0,closed,2.0,,8,2017-03-15,2017-03-23,internal,0,0,0
+150,100,spmb,20029,CMO,70.0,2945367,Biotechnology,67.0,5.0,C-Level,Hortonworks,0,0,closed,1.0,,52,2017-03-03,2017-04-24,internal,3,3,0
+151,100,spmb,20035,CEO,71.0,3173554,Health Services & Wellness,67.0,5.0,C-Level,npm,0,0,closed,3.0,,202,2017-03-03,2017-09-21,internal,6,6,0
+152,100,spmb,20050,VP Marketing,92.0,5010225,Food Production,78.0,3.0,VP,Great Bay Software,0,0,closed,1.0,,61,2017-03-04,2017-05-04,internal,1,1,0
+153,100,spmb,20093,VP Product,70.0,3177563,Biotechnology,67.0,3.0,VP,GutCheck,0,0,closed,1.0,,84,2017-02-14,2017-05-09,internal,2,2,0
+154,100,spmb,20095,Confidential CEO,,5311754,,,5.0,C-Level,ECS Tuning,1,1,closed,1.0,,177,2017-03-20,2017-09-13,internal,2,2,0
+155,100,spmb,20126,CEO (Restart),192.0,4198993,Tech Software & Services,191.0,5.0,C-Level,PsiKick,0,0,closed,1.0,,106,2017-02-08,2017-05-25,internal,7,3,0
+156,100,spmb,20152,CMO,93.0,3422215,"Glass, Ceramics & Concrete",78.0,5.0,C-Level,SentinelOne,0,0,closed,2.0,,7,2017-03-09,2017-03-16,internal,0,0,0
+157,100,spmb,20798,VP Sales,130.0,3775352,Furniture,124.0,3.0,VP,BrightFarms,0,0,closed,1.0,,126,2017-02-09,2017-06-15,internal,1,1,0
+158,100,spmb,20803,"Director of Engineering (Student Prime, Campus Stores and Millennial Insights)",205.0,2944460,Leasing,191.0,2.0,Director,Amazon,0,0,closed,2.0,,43,2017-02-09,2017-03-24,internal,0,0,0
+159,100,spmb,21022,CFO,82.0,2949932,Aviation & Aerospace,78.0,5.0,C-Level,MetroMile,0,0,closed,1.0,,62,2017-03-08,2017-05-09,internal,5,4,0
+160,100,spmb,21026,SVP WW Sales,93.0,2949950,"Glass, Ceramics & Concrete",78.0,4.0,EVP/SVP,Lookout,0,0,closed,1.0,,103,2017-02-22,2017-06-05,internal,7,7,0
+161,100,spmb,21037,VP Sales,70.0,2950252,Biotechnology,67.0,3.0,VP,Quantifind,0,0,closed,2.0,,29,2017-02-13,2017-03-14,internal,0,0,0
+162,100,spmb,21085,VP Marketing,92.0,4401266,Food Production,78.0,3.0,VP,Split Software,0,0,closed,2.0,,13,2017-02-15,2017-02-28,internal,0,0,0
+163,100,spmb,21118,CFO,79.0,3105416,Manufacturing,78.0,5.0,C-Level,Leanplum,0,0,closed,1.0,,93,2017-02-20,2017-05-24,internal,2,2,0
+164,100,spmb,21123,VP Marketing,82.0,2955754,Aviation & Aerospace,78.0,3.0,VP,Glympse,0,0,closed,1.0,,156,2017-02-17,2017-07-23,internal,2,2,0
+165,100,spmb,21134,HR,92.0,2936079,Food Production,78.0,8.0,Other,SPMB,1,1,closed,3.0,,19,2017-02-17,2017-03-08,internal,0,0,0
+166,100,spmb,21218,Customer Care,208.0,2941319,Network & Security,191.0,,,Ingenio,1,0,closed,2.0,,42,2017-02-22,2017-04-05,internal,1,0,0
+167,100,spmb,21221,SVP Customer Success,93.0,3017197,"Glass, Ceramics & Concrete",78.0,5.0,C-Level,Exabeam,0,0,closed,1.0,,60,2017-02-27,2017-04-28,internal,4,4,0
+168,100,spmb,21222,VP Sales,196.0,3349634,Business Solutions,191.0,3.0,VP,ENVOY,1,0,closed,2.0,,13,2017-02-22,2017-03-07,internal,0,0,0
+169,100,spmb,21223,SVP Product,70.0,3017610,Biotechnology,67.0,3.0,VP,Qubole,0,0,closed,1.0,,186,2017-02-27,2017-09-01,internal,6,6,0
+170,100,spmb,21244,VP Engineering,82.0,5391380,Aviation & Aerospace,78.0,3.0,VP,GoGuardian,0,0,closed,1.0,,87,2017-02-27,2017-05-25,internal,3,3,0
+171,100,spmb,21300,CRO,82.0,4027512,Aviation & Aerospace,78.0,5.0,C-Level,Bugsnag,0,0,closed,1.0,,100,2017-02-27,2017-06-07,internal,2,2,0
+172,100,spmb,21314,Engineering Leader,218.0,5099508,Social,203.0,,,Lantern,1,0,closed,2.0,,11,2017-02-27,2017-03-10,internal,0,0,0
+173,100,spmb,21332,VP Marketing,71.0,4401266,Health Services & Wellness,67.0,3.0,VP,Split Software,0,0,closed,3.0,,34,2017-02-28,2017-04-03,internal,1,0,0
+174,100,spmb,21336,VP of Engineering,61.0,3615683,Political Organization,44.0,3.0,VP,Eargo,0,0,closed,2.0,,64,2017-02-28,2017-05-03,internal,0,0,0
+175,100,spmb,21350,CRO / SVP Sales,213.0,3292610,Software,191.0,4.0,EVP/SVP,Capsilon,0,0,closed,1.0,,107,2017-03-01,2017-06-16,internal,3,2,0
+176,100,spmb,21366,VP Product,182.0,3017541,Internet of Things,176.0,3.0,VP,Shyp,1,0,closed,2.0,,13,2017-03-02,2017-03-15,internal,1,0,0
+177,100,spmb,21411,VP Operations,217.0,5254270,OnDemand,203.0,3.0,VP,CellSavers,0,0,closed,2.0,,10,2017-03-06,2017-03-16,internal,2,0,0
+178,100,spmb,21416,"VP, Marketing",82.0,4940057,Aviation & Aerospace,78.0,3.0,VP,Optimal Plus,0,0,closed,3.0,,50,2017-03-07,2017-04-26,internal,3,2,0
+179,100,spmb,21476,CMO,70.0,2941213,Biotechnology,67.0,5.0,C-Level,Elementum,0,0,closed,2.0,,42,2017-03-09,2017-04-20,internal,0,0,0
+180,100,spmb,21507,CEO,92.0,3609682,Food Production,78.0,5.0,C-Level,Apto,0,0,closed,1.0,,97,2017-03-16,2017-06-21,internal,3,2,0
+181,100,spmb,21572,CTO,82.0,4520586,Aviation & Aerospace,78.0,5.0,C-Level,Community Investors,0,0,closed,1.0,,137,2017-03-27,2017-08-11,internal,1,1,0
+182,100,spmb,21582,CMO,197.0,2946817,Collaboration,191.0,5.0,C-Level,Helpshift,1,0,closed,3.0,,44,2017-04-17,2017-05-31,internal,3,3,0
+183,100,spmb,21967,Senior Director Social Media Marketing,4.0,2946558,Banking,1.0,2.0,Director,Capital One,0,0,closed,2.0,,236,2017-03-16,2017-11-07,internal,0,0,0
+184,100,spmb,22189,SVP Sales,70.0,3308880,Biotechnology,67.0,4.0,EVP/SVP,Mixpanel,0,0,closed,4.0,,221,2017-03-17,2017-10-24,internal,7,5,0
+185,100,spmb,22190,VP WW Sales,93.0,2961655,"Glass, Ceramics & Concrete",78.0,3.0,VP,Cedexis,0,0,closed,1.0,,62,2017-04-03,2017-06-04,internal,1,1,0
+186,100,spmb,22225,VP Product 2017,93.0,2961655,"Glass, Ceramics & Concrete",78.0,3.0,VP,Cedexis,0,0,closed,1.0,,176,2017-03-22,2017-09-14,internal,1,1,0
+187,100,spmb,22259,VP Product,93.0,3022056,"Glass, Ceramics & Concrete",78.0,3.0,VP,Synack,0,0,closed,1.0,,134,2017-04-17,2017-08-29,internal,5,4,0
+188,100,spmb,22279,VP Customer Success,82.0,3752880,Aviation & Aerospace,78.0,3.0,VP,Narvar,0,0,closed,1.0,,97,2017-03-23,2017-06-28,internal,4,4,0
+189,100,spmb,22282,VP Corporate Marketing,70.0,3308880,Biotechnology,67.0,3.0,VP,Mixpanel,0,0,closed,3.0,,104,2017-03-28,2017-07-10,internal,7,6,0
+190,100,spmb,22295,"VP, Consumer Analytics & Forecasting",205.0,2944460,Leasing,191.0,3.0,VP,Amazon,0,0,closed,3.0,,193,2017-03-24,2017-10-03,internal,4,3,0
+191,100,spmb,22298,VP Operations,217.0,3224411,OnDemand,203.0,3.0,VP,Instacart,1,0,closed,5.0,,63,2017-05-17,2017-07-19,internal,0,0,0
+192,100,spmb,22301,CMO,93.0,2944440,"Glass, Ceramics & Concrete",78.0,5.0,C-Level,Barracuda Networks,0,0,closed,1.0,,69,2017-03-24,2017-06-01,internal,2,1,0
+193,100,spmb,22303,VP Engineering,92.0,2941406,Food Production,78.0,3.0,VP,Banjo,0,0,closed,1.0,,61,2017-04-07,2017-06-07,internal,4,4,0
+194,100,spmb,22317,Head of Portfolio Advisory Services,14.0,4057552,Investment Management,1.0,5.0,C-Level,Edison Energy,0,0,closed,1.0,,114,2017-03-27,2017-07-19,internal,4,3,0
+195,100,spmb,22328,VP Services Restart,93.0,2971998,"Glass, Ceramics & Concrete",78.0,3.0,VP,Tufin Technologies,0,0,closed,1.0,,69,2017-03-27,2017-06-04,internal,2,2,0
+196,100,spmb,22376,VP Finance,82.0,3596851,Aviation & Aerospace,78.0,3.0,VP,DroneDeploy,0,0,closed,3.0,,166,2017-04-20,2017-10-03,internal,3,3,0
+197,100,spmb,22379,Head of Customer Success,92.0,2980421,Food Production,78.0,3.0,VP,Piazza,0,0,closed,3.0,,224,2017-03-29,2017-11-08,internal,0,0,0
+198,100,spmb,22392,CRO,82.0,5513765,Aviation & Aerospace,78.0,5.0,C-Level,UiPath,0,0,closed,3.0,,33,2017-03-30,2017-05-02,internal,0,0,0
+199,100,spmb,22402,VP Sales,82.0,5391380,Aviation & Aerospace,78.0,3.0,VP,GoGuardian,0,0,closed,1.0,,66,2017-04-18,2017-06-23,internal,3,3,0
+200,100,spmb,22404,VP Data Science,208.0,3037340,Network & Security,191.0,3.0,VP,Rubicon Project,0,0,closed,3.0,,11,2017-04-03,2017-04-14,internal,3,2,0
+201,100,spmb,22412,Head of Workplace Technology & People Experience,75.0,2944613,Medical Practice,67.0,3.0,VP,Comcast,0,0,closed,1.0,,147,2017-03-31,2017-08-25,internal,6,5,0
+202,100,spmb,22418,"VP, Operations",90.0,4874368,Farming,78.0,2.0,Director,Essential,0,0,closed,3.0,,32,2017-03-31,2017-05-02,internal,1,1,0
+203,100,spmb,22610,"VP, Emerging Technologies",82.0,3107751,Aviation & Aerospace,78.0,3.0,VP,Redis Labs,0,0,closed,1.0,,261,2017-04-04,2017-12-21,internal,4,4,0
+204,100,spmb,22636,CMO,207.0,3226527,Mobile Apps,191.0,5.0,C-Level,Ibotta,0,0,closed,1.0,,165,2017-04-24,2017-10-06,internal,2,2,0
+205,100,spmb,22637,VP Data Products,205.0,2947521,Leasing,191.0,3.0,VP,Rent The Runway,0,0,closed,1.0,,240,2017-04-05,2017-12-01,internal,5,4,0
+206,100,spmb,22643,General Counsel,192.0,4537502,Tech Software & Services,191.0,5.0,C-Level,C3 IoT,0,0,closed,1.0,,153,2017-04-05,2017-09-05,internal,0,0,0
+207,100,spmb,22667,VP Product Marketing,70.0,3015279,Biotechnology,67.0,3.0,VP,App Annie,0,0,closed,5.0,,61,2017-04-06,2017-06-06,internal,4,2,0
+208,100,spmb,22682,Head of Growth (Restart),41.0,3038384,Trading,35.0,,,Walker & Company,1,0,closed,2.0,,56,2017-09-01,2017-10-27,internal,0,0,0
+209,100,spmb,22750,VP Journey Optimization,205.0,2946374,Leasing,191.0,3.0,VP,T-Mobile,0,0,closed,1.0,,96,2017-04-13,2017-07-18,internal,3,2,0
+210,100,spmb,22760,CEO,6.0,5583125,Commercial Real Estate,1.0,5.0,C-Level,Owsy,0,0,closed,1.0,,152,2017-04-14,2017-09-13,internal,0,0,0
+211,100,spmb,22762,SVP Federal Sales,192.0,4537502,Tech Software & Services,191.0,4.0,EVP/SVP,C3 IoT,0,0,closed,1.0,,209,2017-04-18,2017-11-13,internal,0,0,0
+212,100,spmb,22793,VP Product & Engineering,66.0,3178444,State & Local,44.0,3.0,VP,Cohesity,0,0,closed,1.0,,89,2017-04-24,2017-07-22,internal,4,3,0
+213,100,spmb,22818,VP Marketing,,3557265,,,3.0,VP,Teridion,0,0,closed,2.0,,191,2017-05-01,2017-11-08,internal,0,0,0
+214,100,spmb,22823,VP People,81.0,2944856,Automotive,78.0,8.0,Other,BrightEdge,0,0,closed,1.0,,108,2017-05-23,2017-09-08,internal,3,3,0
+215,100,spmb,22843,"VP, Marketing",212.0,3253153,SMB,191.0,3.0,VP,CoreOS,0,0,closed,1.0,,90,2017-04-20,2017-07-19,internal,6,6,0
+216,100,spmb,22848,Director/Partner,10.0,5599509,Gambling & Casinos,1.0,7.0,Investor,n47,0,0,closed,3.0,,183,2017-06-21,2017-12-21,internal,2,2,0
+217,100,spmb,23035,VP Marketing,82.0,5391380,Aviation & Aerospace,78.0,3.0,VP,GoGuardian,0,0,closed,1.0,,68,2017-05-11,2017-07-18,internal,3,3,0
+218,100,spmb,23045,CTO,204.0,5337283,Financial Software,191.0,5.0,C-Level,goop,0,0,closed,3.0,,11,2017-05-04,2017-05-15,internal,0,0,0
+219,100,spmb,23058,CFO,70.0,3015279,Biotechnology,67.0,5.0,C-Level,App Annie,0,0,closed,1.0,,85,2017-05-22,2017-08-15,internal,4,4,0
+220,100,spmb,23061,CRO,93.0,3422215,"Glass, Ceramics & Concrete",78.0,5.0,C-Level,SentinelOne,0,1,closed,2.0,,6,2017-05-05,2017-05-11,internal,0,0,0
+221,100,spmb,23071,VP International Sales,163.0,2972611,Photography,139.0,3.0,VP,PAR Technology,0,0,closed,3.0,,82,2017-05-05,2017-07-26,internal,4,2,0
+222,100,spmb,23072,"VP, Marketing",6.0,5194451,Commercial Real Estate,1.0,3.0,VP,PolicyGenius,0,0,closed,2.0,,31,2017-05-05,2017-06-05,internal,0,0,0
+223,100,spmb,23153,VP Marketing,204.0,4118887,Financial Software,191.0,3.0,VP,PicMonkey,0,0,closed,1.0,,88,2017-05-11,2017-08-07,internal,6,5,0
+224,100,spmb,23161,SVP Sales,82.0,2941458,Aviation & Aerospace,78.0,4.0,EVP/SVP,Nutanix,0,0,closed,2.0,,64,2017-05-11,2017-07-14,internal,0,0,0
+225,100,spmb,23171,VP WW Sales,212.0,3398248,SMB,191.0,3.0,VP,GridGain Systems,0,0,closed,1.0,,66,2017-05-15,2017-07-20,internal,2,2,0
+226,100,spmb,23208,VP Human Resources,192.0,4537502,Tech Software & Services,191.0,3.0,VP,C3 IoT,0,0,closed,1.0,,52,2017-05-15,2017-07-06,internal,0,0,0
+227,100,spmb,23210,VP Product,82.0,5391380,Aviation & Aerospace,78.0,3.0,VP,GoGuardian,0,0,closed,2.0,,66,2017-05-15,2017-07-20,internal,0,0,0
+228,100,spmb,23215,"VP, Marketing - Restart",206.0,2945486,Marketing Software,191.0,3.0,VP,Indiegogo,0,0,closed,1.0,,120,2017-05-15,2017-09-12,internal,5,5,0
+229,100,spmb,23223,CAO,197.0,2952618,Collaboration,191.0,5.0,C-Level,Smule,0,0,closed,1.0,,127,2017-05-16,2017-09-20,internal,2,2,0
+230,100,spmb,23593,CRO,82.0,5316517,Aviation & Aerospace,78.0,5.0,C-Level,BrowserStack,0,0,closed,2.0,,52,2017-05-23,2017-07-14,internal,0,0,0
+231,100,spmb,23595,COO,194.0,6056091,Application & Web Development,191.0,5.0,C-Level,Freshworks,0,0,closed,2.0,,52,2017-05-23,2017-07-14,internal,0,0,0
+232,100,spmb,23603,CMO,61.0,2950314,Political Organization,44.0,5.0,C-Level,GoPro,0,0,closed,3.0,,134,2017-06-13,2017-10-25,internal,3,3,0
+233,100,spmb,23608,VP Product (restart),82.0,2950652,Aviation & Aerospace,78.0,3.0,VP,Nginx,0,0,closed,1.0,,149,2017-05-23,2017-10-19,internal,3,3,0
+234,100,spmb,23623,Chief Marketing Officer,82.0,5705959,Aviation & Aerospace,78.0,5.0,C-Level,James - Practice Search,0,0,closed,3.0,,34,2017-05-24,2017-06-27,internal,0,0,0
+235,100,spmb,23624,VP Technical Operations,74.0,2941357,Medical Devices,67.0,4.0,EVP/SVP,Zuora,0,0,closed,1.0,,98,2017-06-05,2017-09-11,internal,2,2,0
+236,100,spmb,23631,Mock Database,93.0,3253382,"Glass, Ceramics & Concrete",78.0,3.0,VP,Awake Networks,0,0,closed,2.0,,12,2017-05-24,2017-06-05,internal,0,0,0
+237,100,spmb,23655,Partner,10.0,5599509,Gambling & Casinos,1.0,7.0,Investor,n47,0,0,closed,3.0,,46,2017-05-25,2017-07-10,internal,0,0,0
+238,100,spmb,23685,CMO,211.0,3180687,Services,191.0,5.0,C-Level,Ivalua,0,0,closed,3.0,,28,2017-05-30,2017-06-27,internal,0,0,0
+239,100,spmb,23686,CFO,211.0,3180687,Services,191.0,5.0,C-Level,Ivalua,0,0,closed,3.0,,28,2017-05-30,2017-06-27,internal,0,0,0
+240,100,spmb,23692,CHRO,211.0,3180687,Services,191.0,5.0,C-Level,Ivalua,0,0,closed,3.0,,28,2017-05-30,2017-06-27,internal,0,0,0
+241,100,spmb,23693,CEO,194.0,2946817,Application & Web Development,191.0,5.0,C-Level,Helpshift,0,0,closed,1.0,,76,2017-05-31,2017-08-15,internal,2,2,0
+242,100,spmb,23694,SVP Strategy,79.0,2941376,Manufacturing,78.0,4.0,EVP/SVP,ServiceNow,0,0,closed,1.0,,140,2017-06-05,2017-10-23,internal,3,3,0
+243,100,spmb,23772,test,74.0,3332223,Medical Devices,67.0,2.0,Director,Lohika,0,0,closed,3.0,,0,2017-06-05,2017-06-05,internal,0,0,0
+244,100,spmb,23775,SVP Engineering,70.0,2959745,Biotechnology,67.0,4.0,EVP/SVP,Looker,0,0,closed,2.0,,15,2017-06-05,2017-06-20,internal,2,1,0
+245,100,spmb,23782,CFO,,4212690,,,5.0,C-Level,Gigster,0,0,closed,2.0,,105,2017-06-06,2017-09-19,internal,0,0,0
+246,100,spmb,23804,VP Engineering,82.0,3121434,Aviation & Aerospace,78.0,3.0,VP,HelloSign,0,0,closed,1.0,,156,2017-06-12,2017-11-15,internal,4,3,0
+247,100,spmb,23847,VP Product & Engineering,70.0,5640221,Biotechnology,67.0,3.0,VP,Noodle.ai,0,0,closed,1.0,,145,2017-06-09,2017-11-01,internal,5,5,0
+248,100,spmb,23859,VP Customer Success,81.0,5360282,Automotive,78.0,,,Iterable,0,0,closed,1.0,,197,2017-06-16,2017-12-30,internal,7,6,0
+249,100,spmb,23862,CRO,69.0,2956149,Alternative Medicine,67.0,5.0,C-Level,HighFive,0,0,closed,1.0,,148,2017-06-12,2017-11-07,internal,1,1,0
+250,100,spmb,23864,"VP, Marketing",66.0,5200019,State & Local,44.0,3.0,VP,E8 Storage,0,0,closed,3.0,,15,2017-06-12,2017-06-27,internal,0,0,0
+251,100,spmb,23879,CRO (Restart),219.0,3572940,Healthcare Tech,26.0,5.0,C-Level,Honor,0,0,closed,3.0,,63,2017-06-13,2017-08-15,internal,0,0,0
+252,100,spmb,23888,VP Training,79.0,2941376,Manufacturing,78.0,3.0,VP,ServiceNow,0,0,closed,1.0,,98,2017-06-13,2017-09-19,internal,2,2,0
+253,100,spmb,23911,VP Customer Success,220.0,2953686,Sales/Client Management Software,76.0,3.0,VP,Usermind,0,0,closed,1.0,,94,2017-07-07,2017-10-09,internal,3,3,0
+254,100,spmb,23930,CRO,205.0,5878835,Leasing,191.0,5.0,C-Level,Aura Frames,0,0,closed,2.0,,4,2017-06-15,2017-06-19,internal,0,0,0
+255,100,spmb,23940,VP Brand & Community Marketing,197.0,2952618,Collaboration,191.0,3.0,VP,Smule,0,0,closed,3.0,,42,2017-06-15,2017-07-27,internal,1,1,0
+256,100,spmb,23967,CMO,93.0,2961655,"Glass, Ceramics & Concrete",78.0,5.0,C-Level,Cedexis,0,0,closed,1.0,,80,2017-06-26,2017-09-14,internal,1,0,0
+257,100,spmb,23999,VP Sales,93.0,5885877,"Glass, Ceramics & Concrete",78.0,3.0,VP,AttackIQ,0,0,closed,2.0,,38,2017-06-19,2017-07-27,internal,3,2,0
+258,100,spmb,24007,"Director, Mobility & Building Technology",10.0,5599509,Gambling & Casinos,1.0,7.0,Investor,n47,0,0,closed,3.0,,43,2017-06-19,2017-08-01,internal,0,0,0
+259,100,spmb,24008,President / Chief Business Officer / Chief Commercial Officer / CRO,90.0,3445928,Farming,78.0,5.0,C-Level,Canary,0,0,closed,2.0,,130,2017-06-19,2017-10-27,internal,1,1,0
+260,100,spmb,24159,CMO,66.0,3178444,State & Local,44.0,5.0,C-Level,Cohesity,0,0,closed,1.0,,165,2017-07-01,2017-12-13,internal,6,5,0
+261,100,spmb,24167,CMO,42.0,3349557,Utilities,35.0,5.0,C-Level,Hint,0,0,closed,1.0,,119,2017-06-26,2017-10-23,internal,4,2,0
+262,100,spmb,24188,"VP, Marketing",93.0,3700020,"Glass, Ceramics & Concrete",78.0,3.0,VP,RiskSense,0,0,closed,1.0,,73,2017-06-27,2017-09-08,internal,2,1,0
+263,100,spmb,24290,SVP Technology Global eCommerce,205.0,5939084,Leasing,191.0,4.0,EVP/SVP,Lululemon Athletica,0,0,closed,5.0,,21,2017-06-29,2017-07-20,internal,3,2,0
+264,100,spmb,24291,SVP eCommerce - North America,205.0,5939084,Leasing,191.0,4.0,EVP/SVP,Lululemon Athletica,0,0,closed,1.0,,111,2017-07-06,2017-10-25,internal,4,1,0
+265,100,spmb,24298,"VP, Product",213.0,3292610,Software,191.0,3.0,VP,Capsilon,0,0,closed,1.0,,89,2017-06-30,2017-09-27,internal,2,1,0
+266,100,spmb,24515,VP Brand and Creative,213.0,4830617,Software,191.0,3.0,VP,Credit Karma,0,0,closed,1.0,,74,2017-07-06,2017-09-18,internal,4,4,0
+267,100,spmb,24517,Chief Architect and Senior Director Engineering,66.0,2944741,State & Local,44.0,2.0,Director,Western Digital,0,0,closed,3.0,,102,2017-07-06,2017-10-16,internal,2,2,0
+268,100,spmb,24524,VP Sales,93.0,3771939,"Glass, Ceramics & Concrete",78.0,3.0,VP,Kenna Security,0,0,closed,1.0,,108,2017-07-24,2017-11-09,internal,3,2,0
+269,100,spmb,24531,"VP, Marketing",82.0,4505292,Aviation & Aerospace,78.0,3.0,VP,Applitools,0,0,closed,1.0,,106,2017-07-26,2017-11-09,internal,3,3,0
+270,100,spmb,24542,CEO,,4680535,,,5.0,C-Level,Motiv,0,0,closed,1.0,,140,2017-07-28,2017-12-15,internal,5,4,0
+271,100,spmb,24550,CRO,69.0,5475561,Alternative Medicine,67.0,5.0,C-Level,Make.TV,0,0,closed,1.0,,51,2017-07-11,2017-08-31,internal,2,2,0
+272,100,spmb,24589,Chief Product Officer 2017,79.0,3027155,Manufacturing,78.0,5.0,C-Level,Planet,0,0,closed,1.0,,82,2017-07-28,2017-10-18,internal,2,2,0
+273,100,spmb,24662,Mock CEO,69.0,2956149,Alternative Medicine,67.0,5.0,C-Level,HighFive,0,0,closed,2.0,,35,2017-07-12,2017-08-16,internal,0,0,0
+274,100,spmb,24690,Director Network Hardware Sourcing,92.0,2944701,Food Production,78.0,2.0,Director,Facebook,0,0,closed,,,43,2017-07-13,2017-08-25,internal,0,0,0
+275,100,spmb,24697,CFO,,2944821,,,5.0,C-Level,LiveOps,0,0,closed,3.0,,42,2017-08-01,2017-09-12,internal,2,2,0
+276,100,spmb,24710,VP Sales & Marketing,215.0,3924185,Virtualization,191.0,3.0,VP,Quicken,0,0,closed,1.0,,76,2017-07-18,2017-10-02,internal,1,1,0
+277,100,spmb,24751,Head of Business Development - SV Innovation Center,32.0,2965533,K-12,29.0,3.0,VP,PACCAR,0,0,closed,1.0,,71,2017-07-17,2017-09-26,internal,4,3,0
+278,100,spmb,24758,"Vice President, Software Engineering",90.0,3445928,Farming,78.0,3.0,VP,Canary,0,0,closed,2.0,,101,2017-07-18,2017-10-27,internal,1,1,0
+279,100,spmb,24761,VP Professional Services,6.0,5969773,Commercial Real Estate,1.0,3.0,VP,"One, Inc.",0,0,closed,1.0,,59,2017-07-18,2017-09-15,internal,3,1,0
+280,100,spmb,24769,CEO,125.0,3254785,Retail,124.0,5.0,C-Level,Cape,0,0,closed,3.0,,11,2017-07-28,2017-08-08,internal,4,3,0
+281,100,spmb,24783,VP Growth,,2948219,,,3.0,VP,Poshmark,0,0,closed,2.0,,100,2017-07-19,2017-10-27,internal,1,0,0
+282,100,spmb,24793,VP Product,82.0,5391380,Aviation & Aerospace,78.0,3.0,VP,GoGuardian,0,0,closed,3.0,,132,2017-07-25,2017-12-04,internal,2,2,0
+283,100,spmb,24801,Director,4.0,2944913,Banking,1.0,2.0,Director,Credit.com,0,0,closed,4.0,,33,2017-07-20,2017-08-22,internal,1,1,0
+284,100,spmb,24832,CMO,69.0,2956444,Alternative Medicine,67.0,5.0,C-Level,Twilio,0,0,closed,1.0,,136,2017-07-24,2017-12-07,internal,5,4,0
+285,100,spmb,24855,Chief People Officer RESTART,205.0,2947521,Leasing,191.0,5.0,C-Level,Rent The Runway,1,0,closed,2.0,,94,2017-07-25,2017-10-27,internal,0,0,0
+286,100,spmb,24885,"VP, Sales (2017)",92.0,3609682,Food Production,78.0,3.0,VP,Apto,0,0,closed,1.0,,99,2017-08-10,2017-11-17,internal,2,2,0
+287,100,spmb,24907,CMO,82.0,4027512,Aviation & Aerospace,78.0,5.0,C-Level,Bugsnag,0,0,closed,1.0,,88,2017-07-28,2017-10-24,internal,4,4,0
+288,100,spmb,24908,VP Finance,10.0,5062176,Gambling & Casinos,1.0,3.0,VP,Bullpen Capital,0,0,closed,2.0,,47,2017-07-28,2017-09-13,internal,0,0,0
+289,100,spmb,24957,CFO demo,196.0,2949111,Business Solutions,191.0,5.0,C-Level,Atlassian,0,1,closed,2.0,,98,2017-08-01,2017-11-07,internal,1,0,0
+290,100,spmb,25094,Chief Product Officer,161.0,2952077,Marketing and Advertising,139.0,5.0,C-Level,Blue Nile,0,1,closed,1.0,,46,2017-08-07,2017-09-22,internal,6,3,0
+291,100,spmb,25096,Chief Strategy & Digital Officer,205.0,5939084,Leasing,191.0,5.0,C-Level,Lululemon Athletica,0,1,closed,1.0,,114,2017-08-21,2017-12-13,internal,3,0,0
+292,100,spmb,25170,Chief Marketing Officer,204.0,5337283,Financial Software,191.0,5.0,C-Level,goop,0,0,closed,2.0,,34,2017-08-08,2017-09-11,internal,0,0,0
+293,100,spmb,25191,Marketing Ideas,41.0,3038384,Trading,35.0,3.0,VP,Walker & Company,0,0,closed,2.0,,79,2017-08-09,2017-10-27,internal,1,1,0
+294,100,spmb,25195,CFO,69.0,2956149,Alternative Medicine,67.0,5.0,C-Level,HighFive,0,0,closed,1.0,,90,2017-08-09,2017-11-07,internal,1,1,0
+295,100,spmb,25196,Chief Marketing Officer,93.0,3017197,"Glass, Ceramics & Concrete",78.0,5.0,C-Level,Exabeam,0,0,closed,1.0,,86,2017-08-09,2017-11-03,internal,4,4,0
+296,100,spmb,25232,"SVP, Next Generation Data Center",66.0,2944236,State & Local,44.0,4.0,EVP/SVP,NetApp,0,0,closed,1.0,,113,2017-08-10,2017-12-01,internal,6,3,0
+297,100,spmb,25248,CRO,,2949677,,,5.0,C-Level,OneLogIn,0,0,closed,1.0,,87,2017-08-11,2017-11-06,internal,1,1,0
+298,100,spmb,25284,VP Sales / CRO - Restart,219.0,3572940,Healthcare Tech,26.0,5.0,C-Level,Honor,0,0,closed,3.0,,58,2017-09-11,2017-11-08,internal,0,0,0
+299,100,spmb,25370,SVP Sales,196.0,4979004,Business Solutions,191.0,3.0,VP,Glint,0,0,closed,1.0,,45,2017-08-23,2017-10-07,internal,1,1,0
+300,100,spmb,25392,Chief Marketing Officer,205.0,6024259,Leasing,191.0,3.0,VP,Brandless,0,0,closed,1.0,,72,2017-08-30,2017-11-10,internal,5,3,0
+301,100,spmb,25427,"VP, Business Development",213.0,3292610,Software,191.0,3.0,VP,Capsilon,0,0,closed,3.0,,95,2017-08-24,2017-11-27,internal,0,0,0
+302,100,spmb,25463,VP Enterprise Sales,123.0,3058801,Publishing,112.0,3.0,VP,Headspace,0,0,closed,1.0,,95,2017-08-28,2017-12-01,internal,4,4,0
+303,100,spmb,25507,"VP, Alliances",,2961074,,,3.0,VP,Trifacta,0,0,closed,3.0,,2,2017-09-11,2017-09-13,internal,0,0,0
+304,100,spmb,25518,CFO,213.0,4911919,Software,191.0,5.0,C-Level,Zebit,0,0,closed,1.0,,120,2017-08-30,2017-12-28,internal,1,1,0
+305,100,spmb,25593,Principal,192.0,5937857,Tech Software & Services,191.0,7.0,Investor,next47,0,0,closed,3.0,,107,2017-09-05,2017-12-21,internal,0,0,0
+306,100,spmb,25629,"Vice President, eCommerce",205.0,5094858,Leasing,191.0,3.0,VP,Rothy's,0,0,closed,4.0,,16,2017-09-06,2017-09-22,internal,0,0,0
+307,100,spmb,25630,CMO / COO,205.0,5094858,Leasing,191.0,5.0,C-Level,Rothy's,0,0,closed,1.0,,93,2017-09-20,2017-12-22,internal,5,5,0
+308,100,spmb,25782,VP Marketing,,2949658,,,3.0,VP,Vungle,0,0,closed,3.0,,15,2017-09-11,2017-09-26,internal,0,0,0
+309,100,spmb,25796,VP Marketing,82.0,2941215,Aviation & Aerospace,78.0,3.0,VP,Hedvig,0,0,closed,1.0,,55,2017-09-12,2017-11-06,internal,2,2,0
+310,100,spmb,25885,Leadership Ideas,41.0,6103810,Trading,35.0,3.0,VP,Fridababy,0,0,closed,2.0,,61,2017-09-14,2017-11-14,internal,0,0,0
+311,100,spmb,25906,Head of Customer Success v2,92.0,2980421,Food Production,78.0,2.0,Director,Piazza,0,0,closed,3.0,,55,2017-09-14,2017-11-08,internal,4,3,0
+312,100,spmb,26080,VP Marketing,93.0,4719294,"Glass, Ceramics & Concrete",78.0,3.0,VP,Tigera,0,0,closed,1.0,,80,2017-09-18,2017-12-07,internal,1,1,0
+313,100,spmb,26091,Vp Operations,12.0,6290236,Insurance,1.0,3.0,VP,Bowery Farms,0,1,closed,2.0,,5,2017-09-15,2017-09-20,internal,0,0,0
+314,100,spmb,26387,VP of Customer Operations,82.0,3121434,Aviation & Aerospace,78.0,3.0,VP,HelloSign,0,0,closed,2.0,,16,2017-09-18,2017-10-04,internal,1,1,0
+315,100,spmb,26429,COO,89.0,2944821,Electrical/Electronic Manufacturing,78.0,5.0,C-Level,LiveOps,0,0,closed,5.0,,68,2017-09-27,2017-12-04,internal,1,1,0
+316,100,spmb,26538,VP of Product,93.0,4719294,"Glass, Ceramics & Concrete",78.0,3.0,VP,Tigera,0,0,closed,1.0,,69,2017-09-26,2017-12-04,internal,1,1,0
+317,100,spmb,26554,Marketing / Finance / Sales,42.0,3304268,Utilities,35.0,3.0,VP,Urban Remedy,0,0,closed,2.0,,30,2017-09-27,2017-10-27,internal,0,0,0
+318,100,spmb,26566,VP of Engineering,93.0,5708545,"Glass, Ceramics & Concrete",78.0,3.0,VP,Corelight,0,0,closed,1.0,,47,2017-10-26,2017-12-12,internal,5,5,0
+319,100,spmb,26658,CEO,,6527842,,,5.0,C-Level,GOOD Worldwide Inc. | Upworthy,0,0,closed,2.0,,2,2017-10-03,2017-10-05,internal,0,0,0
+320,100,spmb,26660,Controller,,2944511,,,3.0,VP,Qualys,0,0,closed,2.0,,10,2017-10-03,2017-10-13,internal,0,0,0
+321,100,spmb,26688,Mock Database 2,93.0,3253382,"Glass, Ceramics & Concrete",78.0,3.0,VP,Awake Networks,0,0,closed,2.0,,6,2017-10-04,2017-10-10,internal,0,0,0
+322,100,spmb,26906,VP Human Resources - RESTART,192.0,4537502,Tech Software & Services,191.0,3.0,VP,C3 IoT,0,0,closed,3.0,,31,2017-10-13,2017-11-13,internal,1,0,0
+323,100,spmb,26978,Confidential,89.0,2944662,Electrical/Electronic Manufacturing,78.0,5.0,C-Level,Lyft,0,1,closed,2.0,,28,2017-10-17,2017-11-14,internal,2,0,0
+324,100,spmb,26997,CFO,132.0,6337998,Luxury Goods & Jewelry,124.0,5.0,C-Level,Bowery Farming,0,0,closed,3.0,,2,2017-10-18,2017-10-20,internal,0,0,0
+325,100,spmb,27007,VP Product,61.0,6232779,Political Organization,44.0,3.0,VP,Lighthouse AI,0,0,closed,2.0,,19,2017-10-18,2017-11-06,internal,0,0,0
+326,100,spmb,27291,President,41.0,2964451,Trading,35.0,5.0,C-Level,Bluestem Brands,0,0,closed,2.0,,18,2017-11-02,2017-11-20,internal,0,0,0
+327,100,spmb,27348,Sales & Engineering Searches,218.0,2947798,Social,203.0,4.0,EVP/SVP,Quora,0,0,closed,2.0,,9,2017-11-07,2017-11-16,internal,0,0,0
+328,100,spmb,27613,CMO - Confidential,82.0,3107751,Aviation & Aerospace,78.0,5.0,C-Level,Redis Labs,0,0,closed,3.0,,8,2017-11-22,2017-11-30,internal,2,2,0
+329,100,spmb,27996,CONFIDENTIAL,8.0,3671354,FinTech,1.0,5.0,C-Level,COMPASS,0,1,closed,2.0,,3,2017-12-18,2017-12-21,internal,0,0,0
