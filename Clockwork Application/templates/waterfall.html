@@ -25,6 +25,7 @@
             <ul>
             <li><a href="/waterfall">Waterfall</a></li>
             <li><a href="/activity">Activity</a></li>
+            <li><a href="/project">Project</a></li>
             </ul>
             </li>
           <li><a href="/team">Team</a></li>
@@ -86,7 +87,7 @@
         return d;
       }, function(error, data) {
         if (error) throw error;
-        console.log(data)
+        // console.log(data)
         var keys = data.columns.slice(1);
 
       x.domain(data.map(function(d) { return d.Status; }));

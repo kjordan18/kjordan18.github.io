@@ -162,7 +162,7 @@ def test():
     # uid = [user1_id, user2_id]
     global uid
     global no_of_days
-    print(uid)
+    # print(uid)
     both_user_data=[]
     for user in uid:
     # print(uid)
@@ -195,8 +195,8 @@ def test():
         "y": y_axis,
         }
         both_user_data.append(data)
-    print(both_user_data)
-    print (t)
+    # print(both_user_data)
+    # print (t)
     return(jsonify(both_user_data))
 
 @app.route('/names')
@@ -219,8 +219,8 @@ def waterfall_pg():
         project_id = '13847'
 
     # run statuses query with firm id as params
-    print("firm_id: " + str(firm_id))
-    print("project_id: " + str(project_id))
+    # print("firm_id: " + str(firm_id))
+    # print("project_id: " + str(project_id))
     sql_query = "SELECT rank, name FROM statuses where firm_id = %s"
     # turn status results into df and two lists;
     statuses = pd.read_sql_query(sql_query, session.bind, params=[firm_id])
@@ -234,7 +234,7 @@ def waterfall_pg():
 
     # get focused project data set.
     focus_project = data.filter(like=project_id, axis=0)
-    print(focus_project)
+    # print(focus_project)
 
     # create empty lists to append function overview_chart data to;
     total = []
@@ -280,7 +280,7 @@ def waterfall_pg():
     in_list.clear
     out.clear
     current.clear
-    print(project_id)
+    # print(project_id)
     # convert to json / html
     overview_json = overview_df.to_json()
     overview_html = overview_df.to_html()
