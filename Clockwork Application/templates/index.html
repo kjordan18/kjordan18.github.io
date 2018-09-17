@@ -28,9 +28,11 @@
           <li class="menu-active"><a href="/index">Home</a></li>
           <li class="menu-has-children"><a href=''>Reports</a>
             <ul>
+            <li><a href="/address">Address</a></li>
+            <li><a href="/email">Email</a></li>
+            <li><a href="/phone">Phone</a></li>
             <li><a href="/waterfall">Waterfall</a></li>
             <li><a href="/activity">Activity</a></li>
-            <li><a href="/project">Project</a></li>
             </ul>
             </li>
           <li><a href="/team">Team</a></li>
@@ -52,7 +54,30 @@
     </div>
 </div>
 <!-- Kevin's Work -->
-
+<div class="col-md-2">
+            <h5>Select Variable:</h5>
+            <select id="selDataset" onchange="optionChanged(this.value)">
+                <option value="closingReason">Closing Reason</option>
+                <option value="seniorityName">Seniority Level</option>
+                <option value="industryName">Industry Name</option>
+            </select>
+            <div class="well">
+                <ul></ul>
+                <div col-lg-12>
+                <h6>Days To Close Averages</h6>
+                <img src="../static/DaysToCloseAvg.png">
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"></h3>
+            </div>
+            <div id="sample-metadata" class="panel-body"></div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12">
+        <div id="pie"></div>
+    </div>
 <!-- End Kevin's Work -->
     <div class="row">
         <div class="col-xs-12  col-md-9">
@@ -78,3 +103,66 @@
     </div>
 </body>
 </html>
+<script>
+d3.json('/tableData', function(data) {
+    // console.log("test")
+// console.log(data['industryName'])
+var x = {
+    closingReason: data.closingReason,
+    industryName: data.industryName,
+    seniorityName: data.seniorityName
+};
+
+var daysToClose = data.daysToClose
+
+
+function init() {
+    getData('closingReason', buildCharts);
+}
+
+// Initialize the dashboard
+init();
+});
+
+    function buildCharts(data, option) {
+    var counts = {};
+
+    Object.values(JSON.parse(data[option])).forEach(val => {
+        counts[val] = counts[val] || 0;
+        counts[val]++;
+    });
+
+        var pieData = [{
+        labels: Object.keys(counts),
+        values: Object.values(counts),
+        // hovertext: data[0][closingReason],
+        hoverinfo: Object.values(counts),
+        type: 'pie'
+        }];
+        // console.log(pieData)
+
+        var pieLayout = {
+                margin: { t: 0, l: 0 }
+            };
+
+        var PIE = document.getElementById('pie');
+        Plotly.newPlot(PIE, pieData, pieLayout);
+
+    };
+
+    function getData(option, callback) {
+    // Use a request to grab the json data needed for all charts
+    Plotly.d3.json('/tableData', function(error, data) {
+        if (error) return console.warn(error);
+
+
+            callback(data, option);
+            // updateMetaData(data);
+        });
+    };
+
+function optionChanged(newSample) {
+    // Fetch new data each time a new sample is selected
+    getData(newSample, buildCharts);
+}
+</script>
