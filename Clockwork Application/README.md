@@ -16,4 +16,6 @@ Clockwork Development
   
 <h4>Waterfall Analysis</h4>
 
+![alt text](https://github.com/kjordan18/kjordan18.github.io/blob/master/Clockwork%20Application/Screen%20Shot%202018-09-17%20at%209.05.32%20AM.png "Waterfall Plot")
+
 <li> Based on a user-input firm and project ID, this chart shows a waterfall plot of candidates throughout the various steps of recruitment. This is valuable to a recruiting company as it allows them to see if each level of the recruiting process is being run in an efficient manner.</li>
