@@ -3,10 +3,24 @@ import pandas as pd
 import numpy as np
 
 firstGameID = 529406
-lastGameID = 531060
-bullpenGames = [530171, 530252, 530342, 530409, 530463, 530487, 
+lastGameID = 531753
+bullpenGamesRays = [530171, 530252, 530342, 530409, 530463, 530487, 
                 530535, 530616, 530644, 530729, 530775, 530852, 
-                530881, 530938, 530982, 531017, 531051, 530090, 530105, 530156, 530186, 530266]
+                530881, 530938, 530982, 531017, 531051, 530090, 
+                530105, 530156, 530186, 530266, 531277, 531328, 
+                531405, 531460, 531526, 531558, 531613, 531643, 
+                531643, 531643, 531749, 529828, 529758, 530565, 
+                530707, 531120, 531169, 531247, 531309, 531391, 
+                531476, 531476, 531541, 531628, 531697, 529545, 
+                529894, 530790, 530910, 530910, 531042, 531081, 
+                531134, 531207, 531284]
+bullpenGamesRedSox = [530784, 531158, 531277, 531328, 531493, 531729]
+bullpenGamesDodgers = [530339, ]
+bullpenGamesPadres = [530319, 530406, 530476, 530553, 530194, ]
+bullpenGamesTwins = [531456, 531600, 531653, 531683, 531575, 531484]
+bullpenGamesAthletics = [531444, 531486, 531524, 531591, 531628, 531667, 531706]
+bullpenGamesRangers = [531468, 531554, ]
+bullpenGamesAngels = [531381, ]
 # data = pd.DataFrame(statcast_single_game(531000))
 # data = pd.read_csv('firstGameData.csv')
 # data1 = statcast('2018-04-01', '2018-04-06')
@@ -16,24 +30,27 @@ bullpenGames = [530171, 530252, 530342, 530409, 530463, 530487,
 
 firstGameID2017 = 490106
 games1 = 3
-games = 1654
+games = 2347
 games2017 = 2406
 game_list = []
 counter = 0
-for i in range(games2017):
-    nextGame = firstGameID2017 + counter
+for i in range(games1):
+    nextGame = firstGameID + counter
     game_list.append(nextGame)
     counter = counter + 1
 
 gamesSkipped = 0
 counter = 0
 gameList = []
-
+# print(game_list)
 
 for i in game_list:
-    print(i)
+    # print(i)
+    print(statcast_single_game(i))
     try:
+        print("I got here!")
         data = statcast_single_game(i)
+        print("it worked!")
         eventsData = data['events'].dropna()
         pitchData = data['pitch_type']
         inning = data['inning_topbot']
@@ -76,12 +93,13 @@ for i in game_list:
         homeCount = 0
         roadCount = 0
 
-        for v in bullpenGames:
+        for v in bullpenGamesRays:
             if (v == i and home_team == "TB"):
                 bullpenGameHome = 1
             elif (v == i and road_team == "TB"):
                 bullpenGameRoad = 1
             else:
+                print(i)
                 continue
         
         for i,v in inning.items():
@@ -369,6 +387,7 @@ for i in game_list:
             'bullpen_game': bullpenGameRoad,
             'team': road_team
         }
+        
 
         # print(homeDict)
         gameList.append(homeDict)
@@ -377,6 +396,7 @@ for i in game_list:
         # print(gameList)
 
     except:
+        print("it didn't work")
         gamesSkipped += 1
         # print(gamesSkipped)
         continue
@@ -384,7 +404,7 @@ for i in game_list:
 # print(gameList)
 print(gamesSkipped)
 gameList = pd.DataFrame(gameList)
-gameList.to_csv('gameList2017.csv')
+gameList.to_csv('gameList2018_9_24.csv')
 
 # if home_pitcher == True:
                 #     homeWOBA += data['woba_value'][i]
