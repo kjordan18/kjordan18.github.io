@@ -5,7 +5,7 @@ Data analytics graduate student with a passion for sports analytics and a backgr
 <ul>
 TECHNICAL SKILLS
 Python, SQL, R, Pandas, Numpy, Scipy, matplotlib, JSON, APIs, Git/GitHub, Heroku, MySQL, SQLAlchemy, Excel, VBA, HTML/CSS, Bootstrap, Beautiful Soup, MongoDB, JavaScript, D3, Leaflet, Tableau, Hadoop, MS Office, MAC OS, big data, Machine Learning with Keras and sklearn, Regression Analysis, Statistical modeling. </ul>
-<ul>
+
 PROJECTS	
   <ul></ul>
 Bullpenning | Python, Pandas, API’s, Tableau  | 
