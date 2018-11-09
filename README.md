@@ -1,6 +1,6 @@
 # kjordan18.github.io
 
-<li>
+<ul>
 Data analytics graduate student with a passion for sports analytics and a background in mathematical economics looking to leverage technical skills along with leadership and analytical skills to guide baseball operations and decision-making in a competitive environment.
 TECHNICAL SKILLS
 Python, SQL, R, Pandas, Numpy, Scipy, matplotlib, JSON, APIs, Git/GitHub, Heroku, MySQL, SQLAlchemy, Excel, VBA, HTML/CSS, Bootstrap, Beautiful Soup, MongoDB, JavaScript, D3, Leaflet, Tableau, Hadoop, MS Office, MAC OS, big data, Machine Learning with Keras and sklearn, Regression Analysis, Statistical modeling.
@@ -31,4 +31,4 @@ Mathematics Tutor– Compass Education Group					     September 2017 - Present
 Specialize in high-stakes college admission tests and high level subject tests while providing academic tutoring for pre-algebra through multivariable calculus.
 Provide customized one-on-one in-home instructional programs structured around learning style, ability, and testing performance.
 Communicate with parents to ensure maximum score increase and a high-quality experience.
-</li>
+</ul>
