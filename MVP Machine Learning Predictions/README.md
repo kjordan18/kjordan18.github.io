@@ -18,3 +18,10 @@
 ![alt text](https://github.com/kjordan18/kjordan18.github.io/blob/master/MVP%20Machine%20Learning%20Predictions/Screen%20Shot%202018-11-07%20at%209.53.13%20AM.png "NL MVP Predictions")
 
 <li>This shows the top 5 probabilities for the National League MVP award. The model predicts with a 100% likelihood that Christian Yelich will win the award, with Javier Baez and Trevor Story coming in 2nd and 3rd, respectively. Nolan Arenado is the only finalist not represented in the top 5 of predictions (12th). </li>
+<br/>
+<h4> Feature Importance </h4>
+<br/>
+
+![alt text](https://github.com/kjordan18/kjordan18.github.io/blob/master/MVP%20Machine%20Learning%20Predictions/Screen%20Shot%202018-11-12%20at%202.28.30%20PM.png "Feature Importance")
+
+<li>This shows the feature importance score for each explanatory variable. This score determines how impactful each variable is towards winning the MVP award. We see that winning percentage represents the largest impact, followed by Home Runs (HR) and Runs Scored (R). I was surprised to see WAR and other player evaluation stats so low in the importance rankings. These are metrics that more accurately represent a players' ability than most of the other stats used. However, this best represents the criteria in which the voters make their decisions for this award. Clearly, playing for a winning team is the most important variable for the voters. </li>
