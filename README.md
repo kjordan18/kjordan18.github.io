@@ -3,8 +3,16 @@
 <ul>
 Data analytics graduate student with a passion for sports analytics and a background in mathematical economics looking to leverage technical skills along with leadership and analytical skills to guide baseball operations and decision-making in a competitive environment. </ul>
 <ul>
+  
 TECHNICAL SKILLS
 Python, SQL, R, Pandas, Numpy, Scipy, matplotlib, JSON, APIs, Git/GitHub, Heroku, MySQL, SQLAlchemy, Excel, VBA, HTML/CSS, Bootstrap, Beautiful Soup, MongoDB, JavaScript, D3, Leaflet, Tableau, Hadoop, MS Office, MAC OS, big data, Machine Learning with Keras and sklearn, Regression Analysis, Statistical modeling. </ul>
+<ul></ul>
+EXPERIENCE
+Baseball Operations Data Analyst – University of California, Berkeley		        February 2019 - Present
+<li>Conduct ad-hoc analytical research projects using Trackman Data with SQL & Python to help player development.</li>
+<li>Create analytical scouting reports using Synergy, a data and video software, to assist in-game decision making.</li>
+<li>Improving catcher framing stats through analytical reports to identify weaknesses & video to improve technique </li>
+
 
 PROJECTS	
   <ul></ul>
