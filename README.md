@@ -12,8 +12,7 @@ Baseball Operations Data Analyst – University of California, Berkeley		       
 <li>Conduct ad-hoc analytical research projects using Trackman Data with SQL & Python to help player development.</li>
 <li>Create analytical scouting reports using Synergy, a data and video software, to assist in-game decision making.</li>
 <li>Improving catcher framing stats through analytical reports to identify weaknesses & video to improve technique </li>
-
-
+<ul></ul>
 PROJECTS	
   <ul></ul>
 Bullpenning | Python, Pandas, API’s, Tableau  | 
